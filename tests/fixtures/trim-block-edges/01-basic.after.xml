@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Trailing br plus whitespace stripped from p]]></title>
+        <link>https://news.uams.edu/2002/sample-ag/</link>
+        <content:encoded><![CDATA[<p>His presentation will be 9:30-11:30 a.m. in the auditorium at St. Bernard's Hospital, 505 E. Washington Ave. It is free and open to the public. Copies of his book will be available for purchase and signing by Lipschitz at the lecture. For more information, call (870) 933-6595.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Leading br plus whitespace stripped from p]]></title>
+        <link>https://news.uams.edu/2002/sample-ah/</link>
+        <content:encoded><![CDATA[<p>Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Leading and trailing brs in li]]></title>
+        <link>https://news.uams.edu/2002/sample-ai/</link>
+        <content:encoded><![CDATA[<ul><li>Foo</li></ul>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Whitespace inside h2 trimmed]]></title>
+        <link>https://news.uams.edu/2002/sample-aj/</link>
+        <content:encoded><![CDATA[<h2>Title</h2>]]></content:encoded>
+</item>
+    <item>
+        <title><![CDATA[Br in middle of p is preserved]]></title>
+        <link>https://news.uams.edu/2002/sample-ak/</link>
+        <content:encoded><![CDATA[<p>Foo<br>Bar</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

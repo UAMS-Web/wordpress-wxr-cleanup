@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Body-level double br becomes blank line</title>
+        <link>https://news.uams.edu/2002/sample-al/</link>
+        <content:encoded><![CDATA[The Arkansas Biomedical Research Network has received another $2 million from the National Institutes of Health.<br>
+<br>
+The new funding will enable the network of research facilities to provide more research support.]]></content:encoded>
+    </item>
+    <item>
+        <title>Three body-level brs collapse to a single blank line</title>
+        <link>https://news.uams.edu/2002/sample-am/</link>
+        <content:encoded><![CDATA[Foo<br><br><br>Bar]]></content:encoded>
+    </item>
+    <item>
+        <title>Double br inside p is left alone</title>
+        <link>https://news.uams.edu/2002/sample-an/</link>
+        <content:encoded><![CDATA[<p>Foo<br><br>Bar</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Single body-level br is left alone</title>
+        <link>https://news.uams.edu/2002/sample-ao/</link>
+        <content:encoded><![CDATA[Foo<br>Bar]]></content:encoded>
+    </item>
+</channel>
+</rss>

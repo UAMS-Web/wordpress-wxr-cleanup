@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Patient role-players honored</title>
+        <link>https://news.uams.edu/2002/sample-ap/</link>
+        <content:encoded><![CDATA[<p>The best patient role-players in the Standardized Patient Program at the University of Arkansas for Medical Sciences (UAMS) will be honored Mon., Oct. 21.</p>]]></content:encoded>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_uams_summary]]></wp:meta_key>
+            <wp:meta_value><![CDATA[&lt;span class="content"&gt;
+&lt;p&gt;&lt;span style="font-size: 13px; font-family: arial;"&gt;The best patient role-players in the Standardized Patient Program at the University of Arkansas for Medical Sciences (UAMS) will be honored Mon., Oct. 21, at the Annunciation Greek Orthodox Church. The program is part of the Clinical Skills Center at UAMS. Mary Cantrell, M.A., director of the program and the center, will present Jay Randall Awards to six role-players, two each for the years 2000-2002.&lt;/span&gt;&lt;/p&gt;
+&lt;/span&gt;]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key><![CDATA[_unrelated_meta]]></wp:meta_key>
+            <wp:meta_value><![CDATA[Left alone — not _uams_summary]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>

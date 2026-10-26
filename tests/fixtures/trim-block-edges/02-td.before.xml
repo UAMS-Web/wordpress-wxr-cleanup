@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Leading and trailing whitespace in td trimmed</title>
+        <link>https://news.uams.edu/2002/sample-bg/</link>
+        <content:encoded><![CDATA[<table><tr><td>   Foo   </td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>Leading and trailing brs in td stripped</title>
+        <link>https://news.uams.edu/2002/sample-bh/</link>
+        <content:encoded><![CDATA[<table><tr><td><br>Foo<br></td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>Leading and trailing line breaks in td stripped</title>
+        <link>https://news.uams.edu/2002/sample-bi/</link>
+        <content:encoded><![CDATA[<table><tr><td>
+            Foo
+        </td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>Br in middle of td is preserved</title>
+        <link>https://news.uams.edu/2002/sample-bj/</link>
+        <content:encoded><![CDATA[<table><tr><td>Foo<br>Bar</td></tr></table>]]></content:encoded>
+    </item>
+</channel>
+</rss>

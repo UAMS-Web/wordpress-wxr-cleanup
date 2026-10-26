@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[UAMS Names Claudia Barone to Lead College of Nursing Linda Hodges Retiring After 17 years as Dean]]></title>
+        <link>https://news.uams.edu/2008/barone-nursing/</link>
+        <content:encoded><![CDATA[<p>UAMS today named <strong>Claudia Barone</strong> the new dean.</p>
+<p>The outgoing dean is described as <em>a transformative leader</em>.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[Claudia Barone named dean; Linda Hodges retiring.]]></excerpt:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Plain text title is left alone]]></title>
+        <link>https://news.uams.edu/2008/plain/</link>
+        <content:encoded><![CDATA[<p>Body has <strong>bold</strong> and <em>italic</em>.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[Bold and italic in excerpt: b, i.]]></excerpt:encoded>
+    </item>
+</channel>
+</rss>

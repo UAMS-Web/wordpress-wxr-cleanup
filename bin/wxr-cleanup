@@ -1,0 +1,110 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// Autoload — works whether installed via composer (vendor/autoload.php exists
+// at the package root) or invoked from a consuming app's vendor/bin/.
+$candidates = [
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php',
+];
+
+foreach ($candidates as $candidate) {
+    if (file_exists($candidate)) {
+        require $candidate;
+        break;
+    }
+}
+
+use UamsWeb\WxrCleanup\Disposition\ApplyDuplicateDisposition;
+use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
+use UamsWeb\WxrCleanup\Transform;
+
+$usage = "Usage: wxr-cleanup [--disposition=<file.json>] <input.xml> [output.xml]\n";
+
+$dispositionFile = null;
+$positional = [];
+foreach (array_slice($argv, 1) as $argument) {
+    if (str_starts_with($argument, '--disposition=')) {
+        $dispositionFile = substr($argument, strlen('--disposition='));
+
+        continue;
+    }
+
+    if (str_starts_with($argument, '--')) {
+        fwrite(STDERR, "Error: unknown option: {$argument}\n");
+        fwrite(STDERR, $usage);
+        exit(1);
+    }
+
+    $positional[] = $argument;
+}
+
+if ($positional === []) {
+    fwrite(STDERR, $usage);
+    fwrite(STDERR, "  With output.xml: writes cleaned WXR to that file (recommended).\n");
+    fwrite(STDERR, "  Without: writes to stdout (for piping).\n");
+    fwrite(STDERR, "  With --disposition: drops the duplicate posts it names before cleaning (see README).\n");
+    exit(1);
+}
+
+if (count($positional) > 2) {
+    fwrite(STDERR, "Error: too many arguments\n");
+    fwrite(STDERR, $usage);
+    exit(1);
+}
+
+$inputFile = $positional[0];
+$outputFile = $positional[1] ?? null;
+
+if (! is_readable($inputFile)) {
+    fwrite(STDERR, "Error: cannot read input file: {$inputFile}\n");
+    exit(1);
+}
+
+if ($outputFile !== null) {
+    $inputPath = realpath($inputFile);
+    $outputDir = realpath(dirname($outputFile));
+
+    if ($outputDir === false) {
+        fwrite(STDERR, "Error: output directory does not exist: " . dirname($outputFile) . "\n");
+        exit(1);
+    }
+
+    $outputPath = $outputDir . DIRECTORY_SEPARATOR . basename($outputFile);
+
+    if ($inputPath !== false && $inputPath === $outputPath) {
+        fwrite(STDERR, "Error: input and output must be different files\n");
+        exit(1);
+    }
+}
+
+$wxr = (string) file_get_contents($inputFile);
+
+if ($dispositionFile !== null) {
+    try {
+        $applied = (new ApplyDuplicateDisposition(DuplicateDisposition::fromFile($dispositionFile)))->apply($wxr);
+    } catch (InvalidArgumentException|RuntimeException $exception) {
+        fwrite(STDERR, "Error: {$exception->getMessage()}\n");
+        exit(1);
+    }
+
+    $wxr = $applied['wxr'];
+    fwrite(STDERR, sprintf("Disposition: dropped %d post(s), renamed %d.\n", count($applied['dropped']), count($applied['renamed'])));
+}
+
+$transform = Transform::withDefaultRules();
+
+$result = $transform->apply($wxr);
+
+if ($outputFile !== null) {
+    if (file_put_contents($outputFile, $result) === false) {
+        fwrite(STDERR, "Error: cannot write output file: {$outputFile}\n");
+        exit(1);
+    }
+
+    exit(0);
+}
+
+fwrite(STDOUT, $result);

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>wp-caption alignright div with width style</title>
+        <link>https://news.uams.edu/sample-wp-a/</link>
+        <content:encoded><![CDATA[<div class="wp-caption alignright" style="width: 310px;">
+<img src="https://news.uams.edu/wp-content/uploads/2010/09/UAMS-Rahn-Family.jpg" alt="UAMS Chancellor Dan Rahn, M.D.'s, family in attendance included (left to right) his brother, Ned; daughter, Rebecca; son, Jason and his girlfriend, Marley; and wife, Lana." width="300" height="194" />
+<p class="wp-caption-text">UAMS Chancellor Dan Rahn, M.D.'s, family in attendance included (left to right) his brother, Ned; daughter, Rebecca; son, Jason and his girlfriend, Marley; and wife, Lana.</p>
+
+</div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption alignleft</title>
+        <link>https://news.uams.edu/sample-wp-b/</link>
+        <content:encoded><![CDATA[<div class="wp-caption alignleft"><img src="https://example.com/a.jpg" alt="A" width="200" height="150"><p class="wp-caption-text">Left-aligned caption.</p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption aligncenter</title>
+        <link>https://news.uams.edu/sample-wp-c/</link>
+        <content:encoded><![CDATA[<div class="wp-caption aligncenter"><img src="https://example.com/b.jpg" alt="B"><p class="wp-caption-text">Centered caption.</p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption alignwide</title>
+        <link>https://news.uams.edu/sample-wp-d/</link>
+        <content:encoded><![CDATA[<div class="wp-caption alignwide"><img src="https://example.com/c.jpg" alt="C"><p class="wp-caption-text">Wide caption.</p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption alone with no alignment modifier</title>
+        <link>https://news.uams.edu/sample-wp-e/</link>
+        <content:encoded><![CDATA[<div class="wp-caption"><img src="https://example.com/d.jpg" alt="D"><p class="wp-caption-text">Plain wp-caption.</p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption with inline child in caption text</title>
+        <link>https://news.uams.edu/sample-wp-f/</link>
+        <content:encoded><![CDATA[<div class="wp-caption alignright"><img src="https://example.com/e.jpg" alt="E"><p class="wp-caption-text">Photo by <strong>Bryan Clifton</strong>.</p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>wp-caption with extra non-img-non-p child is NOT converted</title>
+        <link>https://news.uams.edu/sample-wp-g/</link>
+        <content:encoded><![CDATA[<div class="wp-caption alignright"><img src="https://example.com/f.jpg" alt="F"><p class="wp-caption-text">Caption.</p><a href="#">Extra</a></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>div with wp-caption-text but no wp-caption wrapper is NOT touched</title>
+        <link>https://news.uams.edu/sample-wp-h/</link>
+        <content:encoded><![CDATA[<div class="other"><img src="https://example.com/g.jpg" alt="G"><p class="wp-caption-text">Stray caption text.</p></div>]]></content:encoded>
+    </item>
+</channel>
+</rss>

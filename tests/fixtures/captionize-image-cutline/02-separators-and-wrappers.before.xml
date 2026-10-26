@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>br between img and cutline is consumed</title>
+        <link>https://news.uams.edu/sample-cap-i/</link>
+        <content:encoded><![CDATA[<img class="x" src="https://example.com/a.jpg" alt="A"><br><span class="cutline">After a br.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Multiple brs and whitespace between img and cutline</title>
+        <link>https://news.uams.edu/sample-cap-j/</link>
+        <content:encoded><![CDATA[<img class="x" src="https://example.com/b.jpg" alt="B"> <br /> <br /> <span class="cutline">After brs.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Cutline wrapped in its own p is unwrapped during conversion</title>
+        <link>https://news.uams.edu/sample-cap-k/</link>
+        <content:encoded><![CDATA[<img class="x" src="https://example.com/c.jpg" alt="C"><p><span class="cutline">Wrapped in a p.</span></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Img wrapped in its own p is lifted out for conversion</title>
+        <link>https://news.uams.edu/sample-cap-l/</link>
+        <content:encoded><![CDATA[<p><img class="x" src="https://example.com/d.jpg" alt="D"></p><span class="cutline">Img was in a p.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Both img and cutline wrapped in their own ps</title>
+        <link>https://news.uams.edu/sample-cap-m/</link>
+        <content:encoded><![CDATA[<p><img class="x" src="https://example.com/e.jpg" alt="E" /></p>
+<p><span class="cutline">Both wrapped.</span></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Wrapped img has a br inside the p — still lifted</title>
+        <link>https://news.uams.edu/sample-cap-n/</link>
+        <content:encoded><![CDATA[<p><img class="x" src="https://example.com/f.jpg" alt="F"><br></p><span class="cutline">Br inside p.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Img wrapped in p with non-img content is NOT lifted</title>
+        <link>https://news.uams.edu/sample-cap-o/</link>
+        <content:encoded><![CDATA[<p>Lead text <img class="x" src="https://example.com/g.jpg" alt="G"></p><span class="cutline">Should not match — img is not the only child.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Cutline-wrap p has trailing text — not unwrapped</title>
+        <link>https://news.uams.edu/sample-cap-p/</link>
+        <content:encoded><![CDATA[<img class="x" src="https://example.com/h.jpg" alt="H"><p><span class="cutline">Just the cutline.</span> Trailing prose.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Img inside p, cutline inline inside the same p — captionize in place</title>
+        <link>https://news.uams.edu/sample-cap-q/</link>
+        <content:encoded><![CDATA[<p><img class="x" src="https://example.com/i.jpg" alt="I"><span class="cutline">Inline together.</span></p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

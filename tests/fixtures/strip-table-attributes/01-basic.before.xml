@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Presentational table and td attributes are stripped</title>
+        <link>https://news.uams.edu/2002/sample-q/</link>
+        <content:encoded><![CDATA[<table width="500" height="300" border="1" cellpadding="2" cellspacing="3"><tr><td valign="top">Cell</td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>Structural attributes survive</title>
+        <link>https://news.uams.edu/2002/sample-r/</link>
+        <content:encoded><![CDATA[<table class="data" summary="Quarterly results" width="800"><tr><td valign="middle" scope="col" headers="x" colspan="2">Cell</td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>Other tags untouched</title>
+        <link>https://news.uams.edu/2002/sample-s/</link>
+        <content:encoded><![CDATA[<p width="300">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>ul type attribute is stripped</title>
+        <link>https://news.uams.edu/2002/sample-s2/</link>
+        <content:encoded><![CDATA[<ul type="circle"><li>x</li></ul>]]></content:encoded>
+    </item>
+    <item>
+        <title>ul class survives</title>
+        <link>https://news.uams.edu/2002/sample-s3/</link>
+        <content:encoded><![CDATA[<ul class="bullets" type="square"><li>x</li></ul>]]></content:encoded>
+    </item>
+</channel>
+</rss>

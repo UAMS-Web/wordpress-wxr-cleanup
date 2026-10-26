@@ -1,0 +1,51 @@
+{
+    "name": "uams-web/wordpress-wxr-cleanup",
+    "description": "Deterministic CLI tool to transform WordPress WXR exports — strips legacy <table> markup for Statamic import.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "ext-dom": "*",
+        "ext-libxml": "*"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.29",
+        "mrpunyapal/peststan": "^0.2.10",
+        "pestphp/pest": "^4.7",
+        "pestphp/pest-plugin-drift": "^4.1",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.0",
+        "phpstan/phpstan-strict-rules": "^2.0",
+        "rector/rector": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "UamsWeb\\WxrCleanup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UamsWeb\\WxrCleanup\\Tests\\": "tests/"
+        }
+    },
+    "bin": [
+        "bin/wxr-cleanup"
+    ],
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "scripts": {
+        "test": "pest",
+        "refactor": "rector",
+        "refactor:sweep": "rector --clear-cache --config=rector-sweep.php",
+        "test:refactor": "rector --dry-run",
+        "test:refactor:sweep": "rector --dry-run --clear-cache --config=rector-sweep.php",
+        "pint": "pint",
+        "test:pint": "pint --test",
+        "stan": "phpstan analyse"
+    }
+}

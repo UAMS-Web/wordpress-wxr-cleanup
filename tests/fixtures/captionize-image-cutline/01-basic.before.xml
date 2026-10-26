@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>img + div.cutline at body level becomes [caption]</title>
+        <link>https://news.uams.edu/sample-cap-a/</link>
+        <content:encoded><![CDATA[<img class="img_style_1" src="https://uamshealth.com/upload/images/Newsroom/News%20Releases/Roger%20Paula-story.png" alt>
+<div class="cutline">Two-time breast cancer survivor and artist Paula Rogers was inspired by the support she received from her family, friends and strangers.</div>]]></content:encoded>
+    </item>
+    <item>
+        <title>img + span.cutline with self-closing slash and full attribute set</title>
+        <link>https://news.uams.edu/sample-cap-b/</link>
+        <content:encoded><![CDATA[<img class="img_style_1" style="float: left;" src="https://news.uams.edu/wp-content/uploads/2010/03/UAMS-Rudnicki-Crew1.jpg" alt="(From left to right) Kathryn, Joy, Chad and Tommy May alongside Stacy Rudnicki, M.D." longdesc="(From left to right) Kathryn, Joy, Chad and Tommy May alongside Stacy Rudnicki, M.D." /><span class="cutline">(From left to right) Kathryn, Joy, Chad and Tommy May alongside Stacy Rudnicki, M.D.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Single space between img and span.cutline is consumed</title>
+        <link>https://news.uams.edu/sample-cap-c/</link>
+        <content:encoded><![CDATA[<img class="img_style_1" src="../../../upload/images/cancer%20institute%20site/ashleyco2.jpg" alt="" /> <span class="cutline">Members of Ashley County Cares meet with Thomas Kieber-Emmons.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Multi-token class on cutline element still matches</title>
+        <link>https://news.uams.edu/sample-cap-d/</link>
+        <content:encoded><![CDATA[<img src="https://example.com/a.jpg" alt="A"><span class="caption-text cutline notes">Caption with extra classes.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>Cutline with inline child preserves the child</title>
+        <link>https://news.uams.edu/sample-cap-e/</link>
+        <content:encoded><![CDATA[<img src="https://example.com/b.jpg" alt="B"><span class="cutline">Photo by <strong>Bryan Clifton</strong>.</span>]]></content:encoded>
+    </item>
+    <item>
+        <title>img without a following cutline is unchanged</title>
+        <link>https://news.uams.edu/sample-cap-f/</link>
+        <content:encoded><![CDATA[<p>Body <img class="x" src="https://example.com/c.jpg" alt="C" longdesc="C"> continues.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>div without cutline class is not captionized</title>
+        <link>https://news.uams.edu/sample-cap-g/</link>
+        <content:encoded><![CDATA[<img src="https://example.com/d.jpg" alt="D"><div class="image-caption">This div has a different class.</div>]]></content:encoded>
+    </item>
+    <item>
+        <title>Multiple img+cutline pairs each convert</title>
+        <link>https://news.uams.edu/sample-cap-h/</link>
+        <content:encoded><![CDATA[<img class="a" src="https://example.com/e.jpg" alt="E"><span class="cutline">First.</span>
+<p>Body.</p>
+<img class="b" src="https://example.com/f.jpg" alt="F"><span class="cutline">Second.</span>]]></content:encoded>
+    </item>
+</channel>
+</rss>

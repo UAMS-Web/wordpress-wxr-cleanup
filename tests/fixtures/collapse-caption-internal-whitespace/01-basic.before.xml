@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Caption text with blank-line wpautop split collapses to single line</title>
+        <link>https://news.uams.edu/sample-ccw-a/</link>
+        <content:encoded><![CDATA[[caption]<img alt="From left to right; Nicholas, Patrick and Helen Lang lunch in honor of the Helen F. Lang RN Scholarship Fund. " src="https://news.uams.edu/wp-content/uploads/2009/02/nursing-uams-lang.jpg"> From left to right: Nicholas, Patrick and
+
+Helen Lang lunch in honor of the
+
+Helen F. Lang RN Scholarship Fund.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title>Caption text with br plus newline collapses to single spaces</title>
+        <link>https://news.uams.edu/sample-ccw-b/</link>
+        <content:encoded><![CDATA[[caption]<img alt="Helen Lang, R.N., left, poses with Claudia Barone, Ed.D., R.N." src="https://news.uams.edu/wp-content/uploads/2009/02/lang-scholarship-uams.jpg"> Helen Lang, R.N., left, poses with<br>
+Claudia Barone, Ed.D., R.N.,<br>
+dean of the UAMS College of Nursing.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title>Caption with br plus apostrophe preserved verbatim</title>
+        <link>https://news.uams.edu/sample-ccw-c/</link>
+        <content:encoded><![CDATA[[caption]<img alt="Nicholas and Helen Lang, center" src="https://news.uams.edu/wp-content/uploads/2009/02/uams-scholarship-lang.jpg"> Nicholas and Helen Lang, center,<br>
+pose with son Patrick, far left, and<br>
+Helen's mother, Geniva Haley.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title>Caption with no internal whitespace runs is unchanged</title>
+        <link>https://news.uams.edu/sample-ccw-d/</link>
+        <content:encoded><![CDATA[[caption]<img src="d.jpg" alt="D"> Single line caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title>Br and newlines outside any caption are left alone</title>
+        <link>https://news.uams.edu/sample-ccw-e/</link>
+        <content:encoded><![CDATA[<p>Lead.<br>
+More text.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Caption embedded in a paragraph collapses only the caption span</title>
+        <link>https://news.uams.edu/sample-ccw-f/</link>
+        <content:encoded><![CDATA[<p>Lead. [caption]<img src="f.jpg" alt="F"> Line one<br>
+Line two.[/caption] Trail
+with newline.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

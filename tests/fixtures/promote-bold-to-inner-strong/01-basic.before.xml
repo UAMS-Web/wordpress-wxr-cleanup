@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Bold-wrapping-paragraph sample</title>
+        <link>https://news.uams.edu/2008/sample/</link>
+        <content:encoded><![CDATA[<b>
+<p>Speaker one<br />
+Title one</p>
+</b><b>
+<p>Speaker two<br />
+Title two</p>
+</b>
+<p>Trailing paragraph with <b>inline bold</b> that should be left alone.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

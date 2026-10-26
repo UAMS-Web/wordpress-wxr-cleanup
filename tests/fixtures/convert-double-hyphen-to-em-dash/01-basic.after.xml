@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Spaced double hyphen becomes spaced em dash]]></title>
+        <link>https://news.uams.edu/2002/sample-bk/</link>
+        <content:encoded><![CDATA[The seminar — a free event — will start at noon.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Unspaced double hyphen is left alone]]></title>
+        <link>https://news.uams.edu/2002/sample-bl/</link>
+        <content:encoded><![CDATA[Run with --verbose to see foo--bar in the output.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Single hyphen left alone]]></title>
+        <link>https://news.uams.edu/2002/sample-bm/</link>
+        <content:encoded><![CDATA[A two-part series on aging.]]></content:encoded>
+    </item>
+</channel>
+</rss>

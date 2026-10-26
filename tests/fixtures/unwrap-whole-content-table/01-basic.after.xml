@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Whole-content table with trailing empty row unwraps to just the article body]]></title>
+        <link>https://news.uams.edu/sample-table-a/</link>
+        <content:encoded><![CDATA[LITTLE ROCK – The University of Arkansas for Medical Sciences (UAMS) has received a five-year grant of $5.1 million for research on aging.
+ <p>The Central Arkansas Veterans Healthcare System (CAVHS) will share the grant from the National Institutes of Health (NIH).</p>
+<p>The grant is from the National Institute on Aging of the NIH.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Whole-content table with nested table preserves the nested table]]></title>
+        <link>https://news.uams.edu/sample-table-b/</link>
+        <content:encoded><![CDATA[<p>Outer cell intro.</p>
+<table>
+<tbody>
+<tr><td>Nested cell A</td><td>Nested cell B</td></tr>
+</tbody>
+</table>
+<p>Outer cell outro.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Body with table AND surrounding prose leaves the table alone]]></title>
+        <link>https://news.uams.edu/sample-table-c/</link>
+        <content:encoded><![CDATA[<p>Before the table.</p>
+<table>
+<tbody>
+<tr><td>Cell.</td></tr>
+</tbody>
+</table>
+<p>After the table.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Body with no table is unchanged]]></title>
+        <link>https://news.uams.edu/sample-table-d/</link>
+        <content:encoded><![CDATA[<p>Just a paragraph.</p>
+<p>And another.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Whole-content table with multiple content rows unwraps each]]></title>
+        <link>https://news.uams.edu/sample-table-e/</link>
+        <content:encoded><![CDATA[<p>Row 1.</p>
+
+<p>Row 2.</p>
+
+<p>Row 3.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Whole-content table with no tbody (tr direct under table) still unwraps]]></title>
+        <link>https://news.uams.edu/sample-table-f/</link>
+        <content:encoded><![CDATA[Direct row content.]]></content:encoded>
+    </item>
+</channel>
+</rss>

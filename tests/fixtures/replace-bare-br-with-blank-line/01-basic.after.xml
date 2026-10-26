@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Single body-level br becomes a blank line]]></title>
+        <link>https://news.uams.edu/sample-br-a/</link>
+        <content:encoded><![CDATA[Before.
+
+After.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Two adjacent body-level brs collapse to one blank line]]></title>
+        <link>https://news.uams.edu/sample-br-b/</link>
+        <content:encoded><![CDATA[Before.
+
+After.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[br inside a p is preserved (not body-level)]]></title>
+        <link>https://news.uams.edu/sample-br-c/</link>
+        <content:encoded><![CDATA[<p>Line one<br>Line two.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[br inside a li is preserved]]></title>
+        <link>https://news.uams.edu/sample-br-d/</link>
+        <content:encoded><![CDATA[<ul><li>Item<br>continued.</li></ul>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[br inside a td is preserved]]></title>
+        <link>https://news.uams.edu/sample-br-e/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>Cell line one<br>Cell line two.</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Mixed body-level and nested brs — only the body-level one converts]]></title>
+        <link>https://news.uams.edu/sample-br-f/</link>
+        <content:encoded><![CDATA[Lead.
+
+<p>Inside p<br>still inside p.</p>Trail.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Content with no brs is unchanged]]></title>
+        <link>https://news.uams.edu/sample-br-g/</link>
+        <content:encoded><![CDATA[<p>Just a paragraph.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

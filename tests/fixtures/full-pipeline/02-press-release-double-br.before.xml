@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Brain aging seminar</title>
+        <link>https://news.uams.edu/2002/brain-aging/</link>
+        <content:encoded><![CDATA[<p><span style="font-size: 13px; font-family: arial;">NOV. 7, 2002 | A renowned researcher on aging and dementia will speak at a free seminar for the public and health care professionals Tues., Nov. 12, noon - 1 p.m., at UAMS. </span></p>
+<p><span style="font-size: 13px;">Jeffrey Kaye, M.D., will explain "Brain Aging in the Oldest Old."<br />
+<br />
+Dr. Kaye is professor of neurology and director of the Aging and Alzheimer’s Disease Center at Oregon Health and Science University in Portland.<br />
+<br />
+The seminar will be open to all health care professionals, researchers and students, as well as the general public. The first 60 people to arrive at the seminar will receive free lunches. Preregistration is not required; call 501-603-1294 for more information.</span></p>
+<p><span style="font-size: 13px;">The seminar will be in the Walton Auditorium in the Arkansas Cancer Research Center.  </span></p>
+<p><span style="font-size: 13px;">Dr. Kaye has focused his research over the past decade on the "half-full" portion of the aging glass, or why some individuals remain protected from dementia at advanced ages while others succumb much earlier. He has based his studies on the fastest-growing segment of the population – people who are 85 and older, the so-called "oldest old."<br />
+<br />
+<span style="font-size: 13px;">The seminar has been approved for up to one hour of continuing education credit in Category 1 of the American Medical Association Physician’s Recognition Award and in the Arkansas Nursing Home Administrator Licensure Program. Sponsors of the seminar are the UAMS </span><a href="http://alzheimer.uams.edu/"><span style="font-size: 13px; color: #2c3e87;">Alzheimer’s Disease Center</span></a><span style="font-size: 13px;">, the Donald W. Reynolds </span><a href="http://www.geriatrics.uams.edu/"><span style="font-size: 13px; color: #2c3e87;">Department of Geriatrics</span></a><span style="font-size: 13px;"> and the Donald W. Reynolds </span><a href="http://centeronaging.uams.edu/"><span style="font-size: 13px; color: #2c3e87;">Center on Aging</span></a><span style="font-size: 13px;"> at UAMS, and the Alzheimer’s Arkansas Programs and Services.</span></span></p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[&lt;span class="content" style="font-size: 13px; font-family: arial;"&gt;A renowned researcher on aging and dementia will speak at a free seminar for the public and health care professionals Tues., Nov. 12, noon - 1 p.m., at UAMS.&lt;/span&gt;]]></excerpt:encoded>
+    </item>
+</channel>
+</rss>

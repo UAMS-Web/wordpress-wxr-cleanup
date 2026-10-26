@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Single smart-tag city is unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-da/</link>
+        <content:encoded><![CDATA[Mary lives in Little Rock.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Smart-tag with w:st attribute is unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-db/</link>
+        <content:encoded><![CDATA[Mary lives in Little Rock.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Multiple smart-tag elements in a row]]></title>
+        <link>https://news.uams.edu/2002/sample-dc/</link>
+        <content:encoded><![CDATA[Little Rock, Ark.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Nested smart-tags flatten in one pass]]></title>
+        <link>https://news.uams.edu/2002/sample-dd/</link>
+        <content:encoded><![CDATA[Little Rock, Ark.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Hyphenated smart-tag name is unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-de/</link>
+        <content:encoded><![CDATA[USA]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Unrelated tags are left alone]]></title>
+        <link>https://news.uams.edu/2002/sample-df/</link>
+        <content:encoded><![CDATA[<p>Foo <span>bar</span> baz</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Other variants the user listed]]></title>
+        <link>https://news.uams.edu/2002/sample-dg/</link>
+        <content:encoded><![CDATA[Jane Doe at 3:30 p.m. on Nov. 12, 2002, 123 Main St., Main St., 72205.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[SmartTags v2 person-name components are unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-dh/</link>
+        <content:encoded><![CDATA[Jane Q. Doe]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Future SmartTags version is also unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-di/</link>
+        <content:encoded><![CDATA[preemptive]]></content:encoded>
+    </item>
+</channel>
+</rss>

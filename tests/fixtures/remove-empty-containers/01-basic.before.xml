@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Bare empty p is removed</title>
+        <link>https://news.uams.edu/2002/sample-ga/</link>
+        <content:encoded><![CDATA[<p>Real.</p>
+<p></p>
+<p>Also real.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Whitespace and NBSP only p removed</title>
+        <link>https://news.uams.edu/2002/sample-gb/</link>
+        <content:encoded><![CDATA[<p>Real.</p>
+<p>  </p>
+<p>&nbsp;</p>
+<p>Also real.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p containing only br is removed</title>
+        <link>https://news.uams.edu/2002/sample-gd/</link>
+        <content:encoded><![CDATA[<p>Real.</p>
+<p><br></p>
+<p>Also real.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Recursive: empty strong inside p, both stripped</title>
+        <link>https://news.uams.edu/2002/sample-ge/</link>
+        <content:encoded><![CDATA[<p>Real.</p>
+<p align="justify"><strong><br><br>  </strong></p>
+<p>Also real.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with align attribute but empty content is removed</title>
+        <link>https://news.uams.edu/2002/sample-gf/</link>
+        <content:encoded><![CDATA[<p>Real.</p>
+<p align="center"></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Deeply nested empty containers all collapse</title>
+        <link>https://news.uams.edu/2002/sample-gj/</link>
+        <content:encoded><![CDATA[<div><p><strong><em>   </em></strong></p></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>Standalone empty strong is removed</title>
+        <link>https://news.uams.edu/2002/sample-gk/</link>
+        <content:encoded><![CDATA[Before <strong>  </strong> after.]]></content:encoded>
+    </item>
+    <item>
+        <title>p with image is preserved (img is content)</title>
+        <link>https://news.uams.edu/2002/sample-gg/</link>
+        <content:encoded><![CDATA[<p><img src="https://news.uams.edu/x.jpg" alt="x"></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with anchored text is preserved</title>
+        <link>https://news.uams.edu/2002/sample-gh/</link>
+        <content:encoded><![CDATA[<p><a href="https://news.uams.edu/">click</a></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Empty a is preserved (anchors carry semantic meaning)</title>
+        <link>https://news.uams.edu/2002/sample-gl/</link>
+        <content:encoded><![CDATA[<a name="top"></a>]]></content:encoded>
+    </item>
+    <item>
+        <title>div wrapping an empty table is preserved (table is content)</title>
+        <link>https://news.uams.edu/2002/sample-gm/</link>
+        <content:encoded><![CDATA[<div><table><tr><td></td></tr></table></div>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with real text is preserved</title>
+        <link>https://news.uams.edu/2002/sample-gi/</link>
+        <content:encoded><![CDATA[<p>Hello world.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

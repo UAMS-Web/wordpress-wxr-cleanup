@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>City + spaced comma + ARK. + hyphen</title>
+        <link>https://news.uams.edu/2002/sample-ca/</link>
+        <content:encoded><![CDATA[LITTLE ROCK , ARK. - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + spaced comma + ARK. + en dash</title>
+        <link>https://news.uams.edu/2002/sample-cb/</link>
+        <content:encoded><![CDATA[LITTLE ROCK , ARK. – The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + spaced comma + ARK. + em dash</title>
+        <link>https://news.uams.edu/2002/sample-cc/</link>
+        <content:encoded><![CDATA[LITTLE ROCK , ARK. — The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + hyphen (no ARK.)</title>
+        <link>https://news.uams.edu/2002/sample-cd/</link>
+        <content:encoded><![CDATA[LITTLE ROCK - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + en dash (no ARK.)</title>
+        <link>https://news.uams.edu/2002/sample-ce/</link>
+        <content:encoded><![CDATA[LITTLE ROCK – The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + em dash (no ARK.)</title>
+        <link>https://news.uams.edu/2002/sample-cf/</link>
+        <content:encoded><![CDATA[LITTLE ROCK — The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + comma + ARK. + hyphen</title>
+        <link>https://news.uams.edu/2002/sample-cg/</link>
+        <content:encoded><![CDATA[LITTLE ROCK, ARK. - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + comma + ARK. + em dash</title>
+        <link>https://news.uams.edu/2002/sample-ch/</link>
+        <content:encoded><![CDATA[LITTLE ROCK, ARK. — The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>City + comma + Ark. + en dash</title>
+        <link>https://news.uams.edu/2002/sample-ci/</link>
+        <content:encoded><![CDATA[LITTLE ROCK, Ark. – The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>Canonical form is unchanged</title>
+        <link>https://news.uams.edu/2002/sample-cj/</link>
+        <content:encoded><![CDATA[LITTLE ROCK, Ark. — The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>Other city: BATESVILLE - hyphen</title>
+        <link>https://news.uams.edu/2002/sample-ck/</link>
+        <content:encoded><![CDATA[BATESVILLE - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>Multi-word city: MOUNTAIN HOME, ARK. — em dash</title>
+        <link>https://news.uams.edu/2002/sample-cl/</link>
+        <content:encoded><![CDATA[MOUNTAIN HOME, ARK. — The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>Multi-word city: VAN BUREN - hyphen</title>
+        <link>https://news.uams.edu/2002/sample-cm/</link>
+        <content:encoded><![CDATA[VAN BUREN - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>Dateline inside a wrapping p</title>
+        <link>https://news.uams.edu/2002/sample-cn/</link>
+        <content:encoded><![CDATA[<p>LITTLE ROCK - The seminar will be free.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>City not at the start is left alone</title>
+        <link>https://news.uams.edu/2002/sample-co/</link>
+        <content:encoded><![CDATA[Some intro. LITTLE ROCK - The seminar will be free.]]></content:encoded>
+    </item>
+    <item>
+        <title>FORT SMITH with en dash</title>
+        <link>https://news.uams.edu/2002/sample-cq/</link>
+        <content:encoded><![CDATA[FORT SMITH – William E. Golden, M.D., will discuss quality.]]></content:encoded>
+    </item>
+    <item>
+        <title>FORT SMITH with comma + Ark. + en dash</title>
+        <link>https://news.uams.edu/2002/sample-cr/</link>
+        <content:encoded><![CDATA[FORT SMITH, Ark. – William E. Golden, M.D., will discuss quality.]]></content:encoded>
+    </item>
+    <item>
+        <title>FORREST CITY with en dash</title>
+        <link>https://news.uams.edu/2002/sample-cs/</link>
+        <content:encoded><![CDATA[FORREST CITY – Patient education program announced.]]></content:encoded>
+    </item>
+    <item>
+        <title>PINE BLUFF with hyphen</title>
+        <link>https://news.uams.edu/2002/sample-ct/</link>
+        <content:encoded><![CDATA[PINE BLUFF - New clinic opens.]]></content:encoded>
+    </item>
+    <item>
+        <title>MAGNOLIA with em dash</title>
+        <link>https://news.uams.edu/2002/sample-cu/</link>
+        <content:encoded><![CDATA[MAGNOLIA — Outreach event scheduled.]]></content:encoded>
+    </item>
+    <item>
+        <title>Unrelated city is left alone</title>
+        <link>https://news.uams.edu/2002/sample-cp/</link>
+        <content:encoded><![CDATA[SEATTLE - The seminar will be free.]]></content:encoded>
+    </item>
+</channel>
+</rss>

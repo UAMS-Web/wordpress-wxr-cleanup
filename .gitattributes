@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.php text eol=lf
+*.{json,md,xml,yml,yaml,neon,dist} text eol=lf
+*.{sh,bash} text eol=lf
+
+*.{png,gif,jpg,jpeg,webp,ico,pdf,zip} -text

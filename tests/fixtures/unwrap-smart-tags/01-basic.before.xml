@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Single smart-tag city is unwrapped</title>
+        <link>https://news.uams.edu/2002/sample-da/</link>
+        <content:encoded><![CDATA[Mary lives in <st1:city>Little Rock</st1:city>.]]></content:encoded>
+    </item>
+    <item>
+        <title>Smart-tag with w:st attribute is unwrapped</title>
+        <link>https://news.uams.edu/2002/sample-db/</link>
+        <content:encoded><![CDATA[Mary lives in <st1:city w:st="on">Little Rock</st1:city>.]]></content:encoded>
+    </item>
+    <item>
+        <title>Multiple smart-tag elements in a row</title>
+        <link>https://news.uams.edu/2002/sample-dc/</link>
+        <content:encoded><![CDATA[<st1:city>Little Rock</st1:city>, <st1:state>Ark</st1:state>.]]></content:encoded>
+    </item>
+    <item>
+        <title>Nested smart-tags flatten in one pass</title>
+        <link>https://news.uams.edu/2002/sample-dd/</link>
+        <content:encoded><![CDATA[<st1:place><st1:city>Little Rock</st1:city>, <st1:state>Ark</st1:state></st1:place>.]]></content:encoded>
+    </item>
+    <item>
+        <title>Hyphenated smart-tag name is unwrapped</title>
+        <link>https://news.uams.edu/2002/sample-de/</link>
+        <content:encoded><![CDATA[<st1:country-region>USA</st1:country-region>]]></content:encoded>
+    </item>
+    <item>
+        <title>Unrelated tags are left alone</title>
+        <link>https://news.uams.edu/2002/sample-df/</link>
+        <content:encoded><![CDATA[<p>Foo <span>bar</span> baz</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Other variants the user listed</title>
+        <link>https://news.uams.edu/2002/sample-dg/</link>
+        <content:encoded><![CDATA[<st1:personname>Jane Doe</st1:personname> at <st1:time>3:30 p.m.</st1:time> on <st1:date>Nov. 12, 2002</st1:date>, <st1:address>123 Main St.</st1:address>, <st1:street>Main St.</st1:street>, <st1:postalcode>72205</st1:postalcode>.]]></content:encoded>
+    </item>
+    <item>
+        <title>SmartTags v2 person-name components are unwrapped</title>
+        <link>https://news.uams.edu/2002/sample-dh/</link>
+        <content:encoded><![CDATA[<st2:givenname>Jane</st2:givenname> <st2:middlename>Q.</st2:middlename> <st2:sn>Doe</st2:sn>]]></content:encoded>
+    </item>
+    <item>
+        <title>Future SmartTags version is also unwrapped</title>
+        <link>https://news.uams.edu/2002/sample-di/</link>
+        <content:encoded><![CDATA[<st9:future>preemptive</st9:future>]]></content:encoded>
+    </item>
+</channel>
+</rss>

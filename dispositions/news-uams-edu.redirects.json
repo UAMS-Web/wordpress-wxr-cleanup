@@ -1,0 +1,1176 @@
+[
+    {
+        "source": "https://news.uams.edu/2008/10/06/formerstudentdeliversinauguralyasargillectureatuams/",
+        "target": "https://news.uams.edu/2008/10/06/former-student-delivers-inaugural-yasargil-lecture-at-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12240 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16831,
+        "target_wordpress_post_id": 12240
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/06/retreatcelebrateseducatesovariancancersurvivors/",
+        "target": "https://news.uams.edu/2008/10/06/retreat-celebrates-educates-ovarian-cancer-survivors/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12288 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16830,
+        "target_wordpress_post_id": 12288
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/08/researcherreceivesgranttostudybrainactivityofaddicts/",
+        "target": "https://news.uams.edu/2008/10/08/researcher-receives-grant-to-study-brain-activity-of-addicts/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12335 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16828,
+        "target_wordpress_post_id": 12335
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/08/researcher-receives-grant-to-study-brain-activity-of-addicts-2/",
+        "target": "https://news.uams.edu/2008/10/08/researcher-receives-grant-to-study-brain-activity-of-addicts/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12335, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12335
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/08/uamsdoctoralcandidatesreceivewhitecoatsatceremony/",
+        "target": "https://news.uams.edu/2008/10/08/uams-doctoral-candidates-receive-white-coats-at-ceremony/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12239 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16829,
+        "target_wordpress_post_id": 12239
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/13/pattorvestadservesasraceforthecurehonorarychairwoman/",
+        "target": "https://news.uams.edu/2008/10/13/pat-torvestad-serves-as-race-for-the-cure-honorary-chairwoman/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12285 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16825,
+        "target_wordpress_post_id": 12285
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/13/uamscelebratesdiversitywithweekofevents/",
+        "target": "https://news.uams.edu/2008/10/13/uams-celebrates-diversity-with-week-of-events/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12238 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16826,
+        "target_wordpress_post_id": 12238
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/15/joneseyeinstitutesborawestfallreceiveinauguralchairs/",
+        "target": "https://news.uams.edu/2008/10/15/jones-eye-institutes-bora-westfall-receive-inaugural-chairs/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12237 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16824,
+        "target_wordpress_post_id": 12237
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/16/uamsrecognizedforleadershipincancerresearchdatasystem/",
+        "target": "https://news.uams.edu/2008/10/16/uams-recognized-for-leadership-in-cancer-research-data-system/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12284 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16823,
+        "target_wordpress_post_id": 12284
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/22/newuamseducationbuildingnamedforwilson/",
+        "target": "https://news.uams.edu/2008/10/22/new-uams-education-building-named-for-wilson/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12235 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16821,
+        "target_wordpress_post_id": 12235
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/24/hamranamedcancerinstitutevolunteeroftheyear/",
+        "target": "https://news.uams.edu/2008/10/24/hamra-named-cancer-institute-volunteer-of-the-year/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12234 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16819,
+        "target_wordpress_post_id": 12234
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/28/hospitalassociationarchitectshonorchancellorwilson/",
+        "target": "https://news.uams.edu/2008/10/28/hospital-association-architects-honor-chancellor-wilson/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12283 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16820,
+        "target_wordpress_post_id": 12283
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/29/uamsminiaturegolfoutingasuccessforsafefromthestart/",
+        "target": "https://news.uams.edu/2008/10/29/uams-miniature-golf-outing-a-success-for-safe-from-the-start/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12233 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16818,
+        "target_wordpress_post_id": 12233
+    },
+    {
+        "source": "https://news.uams.edu/2008/10/31/uamsemployeescelebratehalloween/",
+        "target": "https://news.uams.edu/2008/10/31/uams-employees-celebrate-halloween/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12232 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16817,
+        "target_wordpress_post_id": 12232
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/03/recenthistoricalgiftstouamshelppreservethepast/",
+        "target": "https://news.uams.edu/2008/11/03/recent-historical-gifts-to-uams-help-preserve-the-past/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12231 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16816,
+        "target_wordpress_post_id": 12231
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/05/usreprossspeakstouamscollegeofpharmacy/",
+        "target": "https://news.uams.edu/2008/11/05/u-s-rep-ross-speaks-to-uams-college-of-pharmacy/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12229 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16814,
+        "target_wordpress_post_id": 12229
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/07/uamsnursewinsnationalawardforcontributionstowomenshealth/",
+        "target": "https://news.uams.edu/2008/11/07/uams-nurse-wins-national-award-for-contributions-to-womens-health/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12282 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16812,
+        "target_wordpress_post_id": 12282
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/07/uamspathologistsecuresfundingforbetterhealthcareinhaiti/",
+        "target": "https://news.uams.edu/2008/11/07/uams-pathologist-secures-funding-for-better-health-care-in-haiti/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12228 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16813,
+        "target_wordpress_post_id": 12228
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/10/biomedicalcareerdayspeakerspitchpotentialpostgradpaths/",
+        "target": "https://news.uams.edu/2008/11/10/biomedical-career-day-speakers-pitch-potential-post-grad-paths/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12227 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16811,
+        "target_wordpress_post_id": 12227
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/14/distinguishedlecturerhobbsseesprogressinfightagainstbirthdefects/",
+        "target": "https://news.uams.edu/2008/11/14/distinguished-lecturer-hobbs-sees-progress-in-fight-against-birth-defects/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12226 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16810,
+        "target_wordpress_post_id": 12226
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/17/walton-family-foundation-donates-300000-to-uams-for-northwest-campus-2/",
+        "target": "https://news.uams.edu/2008/11/17/walton-family-foundation-donates-300000-to-uams-for-northwest-campus/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12225 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12318,
+        "target_wordpress_post_id": 12225
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/17/waltonfamilyfoundationdonates300000touamsfornorthwestcampus/",
+        "target": "https://news.uams.edu/2008/11/17/walton-family-foundation-donates-300000-to-uams-for-northwest-campus/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12225 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16809,
+        "target_wordpress_post_id": 12225
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/19/arkansasphilanthropistsgiveuamsnorthwest15million/",
+        "target": "https://news.uams.edu/2008/11/19/arkansas-philanthropists-give-uams-northwest-1-5-million/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12224 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16808,
+        "target_wordpress_post_id": 12224
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/19/uamscollegeofpublichealthhostsmexicancounterparts/",
+        "target": "https://news.uams.edu/2008/11/19/uams-college-of-public-health-hosts-mexican-counterparts/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12223 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16807,
+        "target_wordpress_post_id": 12223
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/25/glassartgracesuamspsychiatricresearchinstitute/",
+        "target": "https://news.uams.edu/2008/11/25/glass-art-graces-uams-psychiatric-research-institute/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12221 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16804,
+        "target_wordpress_post_id": 12221
+    },
+    {
+        "source": "https://news.uams.edu/2008/11/26/cancerresearcherawardedpostdoctoralfellowshipaward/",
+        "target": "https://news.uams.edu/2008/11/26/cancer-researcher-awarded-postdoctoral-fellowship-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12241 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16844,
+        "target_wordpress_post_id": 12241
+    },
+    {
+        "source": "https://news.uams.edu/2008/12/02/ashleycountywomenraise28000forcancerprogramsatuams/",
+        "target": "https://news.uams.edu/2008/12/02/ashley-county-women-raise-28000-for-cancer-programs-at-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12290 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16843,
+        "target_wordpress_post_id": 12290
+    },
+    {
+        "source": "https://news.uams.edu/2008/12/02/uamscelebratesmentalhealthcare/",
+        "target": "https://news.uams.edu/2008/12/02/uams-celebrates-mental-health-care/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12289 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16832,
+        "target_wordpress_post_id": 12289
+    },
+    {
+        "source": "https://news.uams.edu/2008/12/02/uams-psychiatric-research-institute-grand-opening-consolidates-research-education-and-treatment-2/",
+        "target": "https://news.uams.edu/2008/12/02/uams-psychiatric-research-institute-grand-opening-consolidates-research-education-and-treatment/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12208 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12209,
+        "target_wordpress_post_id": 12208
+    },
+    {
+        "source": "https://news.uams.edu/2008/12/17/newmegamrisystematuamstoaidinstudyofthebrain/",
+        "target": "https://news.uams.edu/2008/12/17/new-mega-mri-system-at-uams-to-aid-in-study-of-the-brain/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12291 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16854,
+        "target_wordpress_post_id": 12291
+    },
+    {
+        "source": "https://news.uams.edu/2008/12/18/headstartclassesbringholidaycheertouams/",
+        "target": "https://news.uams.edu/2008/12/18/head-start-classes-bring-holiday-cheer-to-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12245 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16919,
+        "target_wordpress_post_id": 12245
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/06/turnage-named-uams-surgery-department-chairman-2/",
+        "target": "https://news.uams.edu/2009/01/06/turnage-named-uams-surgery-department-chairman-3/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12273 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12248,
+        "target_wordpress_post_id": 12273
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/06/turnagenameduamssurgerydepartmentchairman/",
+        "target": "https://news.uams.edu/2009/01/06/turnage-named-uams-surgery-department-chairman-3/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12273 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16921,
+        "target_wordpress_post_id": 12273
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/14/weinamedexecutivedirectorofinstituteonaging/",
+        "target": "https://news.uams.edu/2009/01/14/wei-named-executive-director-of-institute-on-aging/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12189 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16899,
+        "target_wordpress_post_id": 12189
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/16/uams-celebrates-opening-of-10-story-high-tech-hospital-2/",
+        "target": "https://news.uams.edu/2009/01/16/uams-celebrates-opening-of-10-story-high-tech-hospital/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12190 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12203,
+        "target_wordpress_post_id": 12190
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/16/uamscelebratesopeningof10storyhightechhospital/",
+        "target": "https://news.uams.edu/2009/01/16/uams-celebrates-opening-of-10-story-high-tech-hospital/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12190 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16905,
+        "target_wordpress_post_id": 12190
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/16/uamshonoredformashprogram/",
+        "target": "https://news.uams.edu/2009/01/16/uams-honored-for-mash-program/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12246 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16922,
+        "target_wordpress_post_id": 12246
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/16/uamsosteoporosisdrugresearchinnewenglandjournalofmedicine/",
+        "target": "https://news.uams.edu/2009/01/16/uams-osteoporosis-drug-research-in-new-england-journal-of-medicine/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12247 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16923,
+        "target_wordpress_post_id": 12247
+    },
+    {
+        "source": "https://news.uams.edu/2009/01/23/uamsfacultymemberreceivesnationalaward/",
+        "target": "https://news.uams.edu/2009/01/23/uams-faculty-member-receives-national-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12249 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16935,
+        "target_wordpress_post_id": 12249
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/02/weightlosshelpsreduceurinaryincontinencestudyfinds/",
+        "target": "https://news.uams.edu/2009/02/02/weight-loss-helps-reduce-urinary-incontinence-study-finds/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12198 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16933,
+        "target_wordpress_post_id": 12198
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/05/childinspiresdonationofphototherapymachinetouams/",
+        "target": "https://news.uams.edu/2009/02/05/child-inspires-donation-of-phototherapy-machine-to-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12269 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16937,
+        "target_wordpress_post_id": 12269
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/11/racialchallengescontinuerockefellerfoundationpresidentsays/",
+        "target": "https://news.uams.edu/2009/02/11/racial-challenges-continue-rockefeller-foundation-president-says/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12200 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16939,
+        "target_wordpress_post_id": 12200
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/17/uamsdoctorhonorswifescareerwithnursingscholarship/",
+        "target": "https://news.uams.edu/2009/02/17/uams-doctor-honors-wifes-career-with-nursing-scholarship/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12201 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16962,
+        "target_wordpress_post_id": 12201
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/19/tobaccotaxbecomeslawprovides86millionforhealthimprovements/",
+        "target": "https://news.uams.edu/2009/02/19/tobacco-tax-becomes-law-provides-86-million-for-health-improvements/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12350 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16964,
+        "target_wordpress_post_id": 12350
+    },
+    {
+        "source": "https://news.uams.edu/2009/02/26/uamshostsformersurgeongeneralelders/",
+        "target": "https://news.uams.edu/2009/02/26/uams-hosts-former-surgeon-general-elders/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12259 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16971,
+        "target_wordpress_post_id": 12259
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/04/uamsheartsurgeonbreakingnewground/",
+        "target": "https://news.uams.edu/2009/03/04/uams-heart-surgeon-breaking-new-ground/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12306 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16990,
+        "target_wordpress_post_id": 12306
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/10/statetaxcheckofftohelpsavelives/",
+        "target": "https://news.uams.edu/2009/03/10/state-tax-check-off-to-help-save-lives/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12307 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 16993,
+        "target_wordpress_post_id": 12307
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/17/gwenchildsnamed2009uamsoutstandingwomanfaculty/",
+        "target": "https://news.uams.edu/2009/03/17/gwen-childs-named-2009-uams-outstanding-woman-faculty/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12261 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17000,
+        "target_wordpress_post_id": 12261
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/19/matchdaymapsthefuturefor140uamsmedicalstudents/",
+        "target": "https://news.uams.edu/2009/03/19/match-day-maps-the-future-for-140-uams-medical-students/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12262 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17003,
+        "target_wordpress_post_id": 12262
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/24/ua-board-of-trustees-names-rahn-uams-chancellor-2/",
+        "target": "https://news.uams.edu/2009/03/24/ua-board-of-trustees-names-rahn-uams-chancellor/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12263 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12309,
+        "target_wordpress_post_id": 12263
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/24/uaboardoftrusteesnamesrahnuamschancellor/",
+        "target": "https://news.uams.edu/2009/03/24/ua-board-of-trustees-names-rahn-uams-chancellor/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12263 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17004,
+        "target_wordpress_post_id": 12263
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/30/carolynkirkpatrickhonoredforservicetouamsaginginstituteboard/",
+        "target": "https://news.uams.edu/2009/03/30/carolyn-kirkpatrick-honored-for-service-to-uams-aging-institute-board/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12264 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17006,
+        "target_wordpress_post_id": 12264
+    },
+    {
+        "source": "https://news.uams.edu/2009/03/31/inauguraluamscardiovasculardayraisescampusawareness/",
+        "target": "https://news.uams.edu/2009/03/31/inaugural-uams-cardiovascular-day-raises-campus-awareness/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12265 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17009,
+        "target_wordpress_post_id": 12265
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/02/family-home-golf-classic-april-23-to-benefit-patients-at-uams-2/",
+        "target": "https://news.uams.edu/2009/04/02/family-home-golf-classic-april-23-to-benefit-patients-at-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12355 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12356,
+        "target_wordpress_post_id": 12355
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/06/uamsdieteticsinternstestclinicalskills/",
+        "target": "https://news.uams.edu/2009/04/06/uams-dietetics-interns-test-clinical-skills/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12267 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17012,
+        "target_wordpress_post_id": 12267
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/10/safaracceptsinauguralmarthawoodbentleychairinophthalmology/",
+        "target": "https://news.uams.edu/2009/04/10/safar-accepts-inaugural-martha-wood-bentley-chair-in-ophthalmology/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12182 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17030,
+        "target_wordpress_post_id": 12182
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/17/melanomalectureseriestohonorlatenationalguardcolonel/",
+        "target": "https://news.uams.edu/2009/04/17/melanoma-lecture-series-to-honor-late-national-guard-colonel/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12258 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17039,
+        "target_wordpress_post_id": 12258
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/20/arkansaspraisedfornursinghomeimprovementcampaign/",
+        "target": "https://news.uams.edu/2009/04/20/arkansas-praised-for-nursing-home-improvement-campaign/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12183 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17045,
+        "target_wordpress_post_id": 12183
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/21/geriatricnursingcenterhonorsmsjanekrutz/",
+        "target": "https://news.uams.edu/2009/04/21/geriatric-nursing-center-honors-ms-jane-krutz/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12252 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17047,
+        "target_wordpress_post_id": 12252
+    },
+    {
+        "source": "https://news.uams.edu/2009/04/23/tributehonorsroyscheiderbenefitsuamsmyelomainstitute/",
+        "target": "https://news.uams.edu/2009/04/23/tribute-honors-roy-scheider-benefits-uams-myeloma-institute/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12191 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17052,
+        "target_wordpress_post_id": 12191
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/08/cookstoureventsraisefundsforpatientservices/",
+        "target": "https://news.uams.edu/2009/05/08/cooks-tour-events-raise-funds-for-patient-services/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12195 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17081,
+        "target_wordpress_post_id": 12195
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/08/uamsseesophthalmicmedtechsstatureraised/",
+        "target": "https://news.uams.edu/2009/05/08/uams-sees-ophthalmic-med-techs-stature-raised/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12187 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17080,
+        "target_wordpress_post_id": 12187
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/14/julepcupjauntracestoanothersuccessfulyear/",
+        "target": "https://news.uams.edu/2009/05/14/julep-cup-jaunt-races-to-another-successful-year/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12300 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17089,
+        "target_wordpress_post_id": 12300
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/14/julep-cup-jaunt-races-to-another-successful-year-2/",
+        "target": "https://news.uams.edu/2009/05/14/julep-cup-jaunt-races-to-another-successful-year/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12300, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12300
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/19/uamschancellornamedrotarysbusinessprofessionaloftheyear/",
+        "target": "https://news.uams.edu/2009/05/19/uams-chancellor-named-rotarys-business-professional-of-the-year/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12192 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17123,
+        "target_wordpress_post_id": 12192
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/21/arkansasmedicalsocietyallianceendowsuamsscholarships/",
+        "target": "https://news.uams.edu/2009/05/21/arkansas-medical-society-alliance-endows-uams-scholarships/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12276 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17134,
+        "target_wordpress_post_id": 12276
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/26/granttofundclinicaltrialforearliercancerdiagnoses/",
+        "target": "https://news.uams.edu/2009/05/26/grant-to-fund-clinical-trial-for-earlier-cancer-diagnoses/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12194 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17139,
+        "target_wordpress_post_id": 12194
+    },
+    {
+        "source": "https://news.uams.edu/2009/05/29/blakewilliamswinsuamsmarvinaward/",
+        "target": "https://news.uams.edu/2009/05/29/blake-williams-wins-uams-marvin-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12277 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17148,
+        "target_wordpress_post_id": 12277
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/02/hectorelementarystudentsraise1500forautismworkatuams/",
+        "target": "https://news.uams.edu/2009/06/02/hector-elementary-students-raise-1500-for-autism-work-at-uams-2/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12669 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17157,
+        "target_wordpress_post_id": 12669
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/09/mckelveybecomesinauguralrecipientofchairinclinicalgenetics/",
+        "target": "https://news.uams.edu/2009/06/09/mckelvey-becomes-inaugural-recipient-of-chair-in-clinical-genetics/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12845 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17178,
+        "target_wordpress_post_id": 12845
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/23/hpvresearchbringsuamsphysiciannationalaward/",
+        "target": "https://news.uams.edu/2009/06/23/hpv-research-brings-uams-physician-national-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12270 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17191,
+        "target_wordpress_post_id": 12270
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/26/uams-northwest-receives-1-million-from-walmart-foundation-2/",
+        "target": "https://news.uams.edu/2009/06/26/uams-northwest-receives-1-million-from-walmart-foundation/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12843 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12681,
+        "target_wordpress_post_id": 12843
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/26/uamsnorthwestreceives1millionfromwalmartfoundation/",
+        "target": "https://news.uams.edu/2009/06/26/uams-northwest-receives-1-million-from-walmart-foundation/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12843 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17211,
+        "target_wordpress_post_id": 12843
+    },
+    {
+        "source": "https://news.uams.edu/2009/06/26/uams-northwest-receives-1-million-from-walmart-foundation-3/",
+        "target": "https://news.uams.edu/2009/06/26/uams-northwest-receives-1-million-from-walmart-foundation/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12843, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12843
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/02/bordersnamededitorofthejournalofruralhealth/",
+        "target": "https://news.uams.edu/2009/07/02/borders-named-editor-of-the-journal-of-rural-health/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12184 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17221,
+        "target_wordpress_post_id": 12184
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/07/uamsscientistreceivesnationalyounginvestigatoraward/",
+        "target": "https://news.uams.edu/2009/07/07/uams-scientist-receives-national-young-investigator-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12185 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17236,
+        "target_wordpress_post_id": 12185
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/10/eaglesgive2500touamsdivisionofendocrinology/",
+        "target": "https://news.uams.edu/2009/07/10/eagles-give-2500-to-uams-division-of-endocrinology/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12186 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17242,
+        "target_wordpress_post_id": 12186
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/22/mountainhomefirefightersdonate2500touamsforalsresearch/",
+        "target": "https://news.uams.edu/2009/07/22/mountain-home-firefighters-donate-2500-to-uams-for-als-research/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12279 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17268,
+        "target_wordpress_post_id": 12279
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/23/uamsahecswreceives80000tocontinueminorityclinic/",
+        "target": "https://news.uams.edu/2009/07/23/uams-ahec-sw-receives-80000-to-continue-minority-clinic/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12297 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17272,
+        "target_wordpress_post_id": 12297
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/28/bank-of-america-continues-tradition-of-uams-support-2/",
+        "target": "https://news.uams.edu/2009/07/28/bank-of-america-continues-tradition-of-uams-support/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12251 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12280,
+        "target_wordpress_post_id": 12251
+    },
+    {
+        "source": "https://news.uams.edu/2009/07/28/bankofamericacontinuestraditionofuamssupport/",
+        "target": "https://news.uams.edu/2009/07/28/bank-of-america-continues-tradition-of-uams-support/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12251 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 17274,
+        "target_wordpress_post_id": 12251
+    },
+    {
+        "source": "https://news.uams.edu/2009/08/04/uams-opens-states-first-adult-genetics-clinic-2/",
+        "target": "https://news.uams.edu/2009/08/04/uams-opens-states-first-adult-genetics-clinic/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12518, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12518
+    },
+    {
+        "source": "https://news.uams.edu/2009/08/17/scholarship-ceremony-honors-memory-of-blytheville-doctor-2/",
+        "target": "https://news.uams.edu/2009/08/17/scholarship-ceremony-honors-memory-of-blytheville-doctor/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12685 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12686,
+        "target_wordpress_post_id": 12685
+    },
+    {
+        "source": "https://news.uams.edu/2009/08/17/scholarship-ceremony-honors-memory-of-blytheville-doctor-3/",
+        "target": "https://news.uams.edu/2009/08/17/scholarship-ceremony-honors-memory-of-blytheville-doctor/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12685 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12687,
+        "target_wordpress_post_id": 12685
+    },
+    {
+        "source": "https://news.uams.edu/2009/08/24/public-invited-to-defensive-driving-course-at-uams-5/",
+        "target": "https://news.uams.edu/2009/08/24/public-invited-to-defensive-driving-course-at-uams-4/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12694 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12699,
+        "target_wordpress_post_id": 12694
+    },
+    {
+        "source": "https://news.uams.edu/2009/10/14/uams-kids-first-program-earns-prestigious-accreditation-2/",
+        "target": "https://news.uams.edu/2009/10/14/uams-kids-first-program-earns-prestigious-accreditation/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12417 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12418,
+        "target_wordpress_post_id": 12417
+    },
+    {
+        "source": "https://news.uams.edu/2009/10/28/barlogie-uams-multiple-myeloma-program-receive-19-5-million-grant-2/",
+        "target": "https://news.uams.edu/2009/10/28/barlogie-uams-multiple-myeloma-program-receive-19-5-million-grant/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12604, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12604
+    },
+    {
+        "source": "https://news.uams.edu/2009/11/13/barlogie-uams-myeloma-institute-celebrate-20-years-2/",
+        "target": "https://news.uams.edu/2009/11/13/barlogie-uams-myeloma-institute-celebrate-20-years/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12607 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12608,
+        "target_wordpress_post_id": 12607
+    },
+    {
+        "source": "https://news.uams.edu/2009/11/16/tobacco-settlement-funds-leverage-258-million-in-research-funding-through-arkansas-biosciences-institute-2/",
+        "target": "https://news.uams.edu/2009/11/16/tobacco-settlement-funds-leverage-258-million-in-research-funding-through-arkansas-biosciences-institute/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12315 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12609,
+        "target_wordpress_post_id": 12315
+    },
+    {
+        "source": "https://news.uams.edu/2009/11/17/nanotechnology-team-captures-tumor-cells-in-bloodstream-2/",
+        "target": "https://news.uams.edu/2009/11/17/nanotechnology-team-captures-tumor-cells-in-bloodstream/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12731, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12731
+    },
+    {
+        "source": "https://news.uams.edu/2009/12/07/uams-allied-health-college-dean-receives-legacy-award-2/",
+        "target": "https://news.uams.edu/2009/12/07/uams-allied-health-college-dean-receives-legacy-award/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12593 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12709,
+        "target_wordpress_post_id": 12593
+    },
+    {
+        "source": "https://news.uams.edu/2009/12/09/washington-regional-medical-center-joins-uams-led-program-to-provide-emergency-stroke-care-2/",
+        "target": "https://news.uams.edu/2009/12/09/washington-regional-medical-center-joins-uams-led-program-to-provide-emergency-stroke-care/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12710 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12711,
+        "target_wordpress_post_id": 12710
+    },
+    {
+        "source": "https://news.uams.edu/2010/02/12/day-named-uams-neurosurgery-department-chairman-2/",
+        "target": "https://news.uams.edu/2010/02/12/day-named-uams-neurosurgery-department-chairman/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12625 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12626,
+        "target_wordpress_post_id": 12625
+    },
+    {
+        "source": "https://news.uams.edu/2010/02/23/uams-college-of-public-health-mexican-consulate-team-up-for-public-health-initiatives-2/",
+        "target": "https://news.uams.edu/2010/02/23/uams-college-of-public-health-mexican-consulate-team-up-for-public-health-initiatives/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12621, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12621
+    },
+    {
+        "source": "https://news.uams.edu/2010/04/19/foundation-gift-tops-1-million-to-uams-ahec-in-jonesboro-2/",
+        "target": "https://news.uams.edu/2010/04/19/foundation-gift-tops-1-million-to-uams-ahec-in-jonesboro/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12790, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12790
+    },
+    {
+        "source": "https://news.uams.edu/2010/05/19/uams-college-of-nursing-awarded-50000-from-arkansas-minority-health-commission-2/",
+        "target": "https://news.uams.edu/2010/05/19/uams-college-of-nursing-awarded-50000-from-arkansas-minority-health-commission/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12470, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12470
+    },
+    {
+        "source": "https://news.uams.edu/2010/06/02/brain-mechanism-could-be-key-to-new-stimulants-anesthetics-2/",
+        "target": "https://news.uams.edu/2010/06/02/brain-mechanism-could-be-key-to-new-stimulants-anesthetics/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12562, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12562
+    },
+    {
+        "source": "https://news.uams.edu/2010/07/01/uams-angels-program-nationally-recognized-as-it-leader-2/",
+        "target": "https://news.uams.edu/2010/07/01/uams-angels-program-nationally-recognized-as-it-leader/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12462, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12462
+    },
+    {
+        "source": "https://news.uams.edu/2010/08/18/uams-receives-102-million-for-statewide-broadband-to-benefit-health-care-education-2/",
+        "target": "https://news.uams.edu/2010/08/18/uams-receives-102-million-for-statewide-broadband-to-benefit-health-care-education/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12444 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12769,
+        "target_wordpress_post_id": 12444
+    },
+    {
+        "source": "https://news.uams.edu/2010/09/08/uams-offers-free-prostate-cancer-screenings-2/",
+        "target": "https://news.uams.edu/2010/09/08/uams-offers-free-prostate-cancer-screenings/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12582, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12582
+    },
+    {
+        "source": "https://news.uams.edu/2010/09/28/uams-medical-center-becomes-first-in-state-designated-level-i-trauma-center-2/",
+        "target": "https://news.uams.edu/2010/09/28/uams-medical-center-becomes-first-in-state-designated-level-i-trauma-center/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12438, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12438
+    },
+    {
+        "source": "https://news.uams.edu/2010/10/06/arkansas-to-get-30-more-family-medicine-resident-physicians-2/",
+        "target": "https://news.uams.edu/2010/10/06/arkansas-to-get-30-more-family-medicine-resident-physicians/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 12831, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 12831
+    },
+    {
+        "source": "https://news.uams.edu/2011/02/16/uams-college-of-pharmacy-receives-1-million-gift-2/",
+        "target": "https://news.uams.edu/2011/02/16/uams-college-of-pharmacy-receives-1-million-gift/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13043 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13044,
+        "target_wordpress_post_id": 13043
+    },
+    {
+        "source": "https://news.uams.edu/2011/02/24/lyons-give-1-5-million-to-uams-reynolds-institute-on-aging-2/",
+        "target": "https://news.uams.edu/2011/02/24/lyons-give-1-5-million-to-uams-reynolds-institute-on-aging/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13380 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13387,
+        "target_wordpress_post_id": 13380
+    },
+    {
+        "source": "https://news.uams.edu/2011/03/10/uams-raises-385-million-to-surpass-campaign-goal-2/",
+        "target": "https://news.uams.edu/2011/03/10/uams-raises-385-million-to-surpass-campaign-goal/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13172 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13384,
+        "target_wordpress_post_id": 13172
+    },
+    {
+        "source": "https://news.uams.edu/2011/03/31/uams-simulation-center-opens-to-provide-hands-on-training-2/",
+        "target": "https://news.uams.edu/2011/03/31/uams-simulation-center-opens-to-provide-hands-on-training/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13379, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13379
+    },
+    {
+        "source": "https://news.uams.edu/2011/06/16/uams-names-frazier-college-of-nursing-dean-2/",
+        "target": "https://news.uams.edu/2011/06/16/uams-names-frazier-college-of-nursing-dean/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13009, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13009
+    },
+    {
+        "source": "https://news.uams.edu/2011/07/19/statewide-cord-blood-bank-celebrates-grand-opening-at-uams-2/",
+        "target": "https://news.uams.edu/2011/07/19/statewide-cord-blood-bank-celebrates-grand-opening-at-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13059 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13417,
+        "target_wordpress_post_id": 13059
+    },
+    {
+        "source": "https://news.uams.edu/2011/09/12/uams-researchers-find-critical-clue-to-bone-renewal-process-2/",
+        "target": "https://news.uams.edu/2011/09/12/uams-researchers-find-critical-clue-to-bone-renewal-process/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13156 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13157,
+        "target_wordpress_post_id": 13156
+    },
+    {
+        "source": "https://news.uams.edu/2011/10/31/uams-names-burchett-vice-chancellor-for-development-and-alumni-affairs-2/",
+        "target": "https://news.uams.edu/2011/10/31/uams-names-burchett-vice-chancellor-for-development-and-alumni-affairs/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13145 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13146,
+        "target_wordpress_post_id": 13145
+    },
+    {
+        "source": "https://news.uams.edu/2012/01/23/uams-announces-nanomedicine-center-2/",
+        "target": "https://news.uams.edu/2012/01/23/uams-announces-nanomedicine-center/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12967 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12968,
+        "target_wordpress_post_id": 12967
+    },
+    {
+        "source": "https://news.uams.edu/2012/02/09/uams-northwest-campus-receives-435000-from-walmart-foundation-for-academic-specialty-clinic-2/",
+        "target": "https://news.uams.edu/2012/02/09/uams-northwest-campus-receives-435000-from-walmart-foundation-for-academic-specialty-clinic/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13252 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13253,
+        "target_wordpress_post_id": 13252
+    },
+    {
+        "source": "https://news.uams.edu/2012/03/01/arkansas-tax-filers-can-donate-to-cord-blood-bank-of-arkansas-2/",
+        "target": "https://news.uams.edu/2012/03/01/arkansas-tax-filers-can-donate-to-cord-blood-bank-of-arkansas/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12955 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12956,
+        "target_wordpress_post_id": 12955
+    },
+    {
+        "source": "https://news.uams.edu/2012/07/09/uams-establishes-center-for-dental-education-2/",
+        "target": "https://news.uams.edu/2012/07/09/uams-establishes-center-for-dental-education/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13221 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13222,
+        "target_wordpress_post_id": 13221
+    },
+    {
+        "source": "https://news.uams.edu/2012/09/05/health-status-of-african-americans-detailed-in-uams-college-of-public-health-report-2/",
+        "target": "https://news.uams.edu/2012/09/05/health-status-of-african-americans-detailed-in-uams-college-of-public-health-report/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12999 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13000,
+        "target_wordpress_post_id": 12999
+    },
+    {
+        "source": "https://news.uams.edu/2012/09/11/uams-receives-180000-for-teacher-health-education-2/",
+        "target": "https://news.uams.edu/2012/09/11/uams-receives-180000-for-teacher-health-education/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12997 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12998,
+        "target_wordpress_post_id": 12997
+    },
+    {
+        "source": "https://news.uams.edu/2013/01/10/uams-neurologists-discover-new-neurodegenerative-disease-2/",
+        "target": "https://news.uams.edu/2013/01/10/uams-neurologists-discover-new-neurodegenerative-disease/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 12922 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 12923,
+        "target_wordpress_post_id": 12922
+    },
+    {
+        "source": "https://news.uams.edu/2013/01/24/fort-smith-becomes-states-fifth-schmieding-home-caregiver-training-site-2/",
+        "target": "https://news.uams.edu/2013/01/24/fort-smith-becomes-states-fifth-schmieding-home-caregiver-training-site/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13619 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13620,
+        "target_wordpress_post_id": 13619
+    },
+    {
+        "source": "https://news.uams.edu/2013/04/18/uams-physician-assistant-program-achieves-accreditation-2/",
+        "target": "https://news.uams.edu/2013/04/18/uams-physician-assistant-program-achieves-accreditation/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13710, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13710
+    },
+    {
+        "source": "https://news.uams.edu/2013/06/13/uams-breast-cancer-program-awarded-407000-from-televised-charitable-shoe-sale-2/",
+        "target": "https://news.uams.edu/2013/06/13/uams-breast-cancer-program-awarded-407000-from-televised-charitable-shoe-sale/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13682, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13682
+    },
+    {
+        "source": "https://news.uams.edu/2013/09/09/uams-alumnus-gives-500000-to-honor-surgeon-2/",
+        "target": "https://news.uams.edu/2013/09/09/uams-alumnus-gives-500000-to-honor-surgeon/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13483, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13483
+    },
+    {
+        "source": "https://news.uams.edu/2013/10/09/fibroids-procedure-doesnt-slow-runner-down-2/",
+        "target": "https://news.uams.edu/2013/10/09/fibroids-procedure-doesnt-slow-runner-down/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13495 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 27886,
+        "target_wordpress_post_id": 13495
+    },
+    {
+        "source": "https://news.uams.edu/2013/12/12/uams-opens-adult-allergy-immunology-clinic-2/",
+        "target": "https://news.uams.edu/2013/12/12/uams-opens-adult-allergy-immunology-clinic/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13793, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13793
+    },
+    {
+        "source": "https://news.uams.edu/2014/02/14/uams-celebrates-new-weight-loss-clinic-location-2/",
+        "target": "https://news.uams.edu/2014/02/14/uams-celebrates-new-weight-loss-clinic-location/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13906 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 14062,
+        "target_wordpress_post_id": 13906
+    },
+    {
+        "source": "https://news.uams.edu/2014/04/21/super-bowl-champ-visits-cancer-institute-patients-3/",
+        "target": "https://news.uams.edu/2014/04/21/super-bowl-champ-visits-cancer-institute-patients-2/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 249 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13889,
+        "target_wordpress_post_id": 249
+    },
+    {
+        "source": "https://news.uams.edu/2014/05/07/william-brooks-gentry-m-d-appointed-chair-of-the-uams-department-of-anesthesiology-2/",
+        "target": "https://news.uams.edu/2014/05/07/william-brooks-gentry-m-d-appointed-chair-of-the-uams-department-of-anesthesiology/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13816 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13817,
+        "target_wordpress_post_id": 13816
+    },
+    {
+        "source": "https://news.uams.edu/2014/07/11/c-lowry-barnes-named-chair-of-uams-orthopaedic-surgery-2/",
+        "target": "https://news.uams.edu/2014/07/11/c-lowry-barnes-named-chair-of-uams-orthopaedic-surgery/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13842 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13843,
+        "target_wordpress_post_id": 13842
+    },
+    {
+        "source": "https://news.uams.edu/2014/07/14/two-uams-medical-students-committed-to-primary-care-receive-20000-scholarships-2/",
+        "target": "https://news.uams.edu/2014/07/14/two-uams-medical-students-committed-to-primary-care-receive-20000-scholarships/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13878, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13878
+    },
+    {
+        "source": "https://news.uams.edu/2014/07/28/uams-winthrop-p-rockefeller-cancer-institute-benefits-from-charitable-shoe-sale-on-qvc-2/",
+        "target": "https://news.uams.edu/2014/07/28/uams-winthrop-p-rockefeller-cancer-institute-benefits-from-charitable-shoe-sale-on-qvc/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13862 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 13863,
+        "target_wordpress_post_id": 13862
+    },
+    {
+        "source": "https://news.uams.edu/2014/10/14/uams-developed-medical-device-for-monitoring-uterine-contractions-goes-to-market-2/",
+        "target": "https://news.uams.edu/2014/10/14/uams-developed-medical-device-for-monitoring-uterine-contractions-goes-to-market/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13787 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 14184,
+        "target_wordpress_post_id": 13787
+    },
+    {
+        "source": "https://news.uams.edu/2014/10/22/brain-surgery-brings-new-lease-on-life-2/",
+        "target": "https://news.uams.edu/2014/10/22/brain-surgery-brings-new-lease-on-life/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 13783 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 28212,
+        "target_wordpress_post_id": 13783
+    },
+    {
+        "source": "https://news.uams.edu/2014/12/12/uams-helps-clear-college-students-head-2/",
+        "target": "https://news.uams.edu/2014/12/12/uams-helps-clear-college-students-head/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 14209 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 28174,
+        "target_wordpress_post_id": 14209
+    },
+    {
+        "source": "https://news.uams.edu/2015/01/09/heard-to-retire-as-provost-succeeded-by-gardner-2/",
+        "target": "https://news.uams.edu/2015/01/09/heard-to-retire-as-provost-succeeded-by-gardner/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13946, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13946
+    },
+    {
+        "source": "https://news.uams.edu/2015/02/09/uams-receives-1-3-million-from-arkansas-blue-cross-and-blue-shield-blue-you-foundation-to-establish-chair-expand-programs-2/",
+        "target": "https://news.uams.edu/2015/02/09/uams-receives-1-3-million-from-arkansas-blue-cross-and-blue-shield-blue-you-foundation-to-establish-chair-expand-programs/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 13776, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 13776
+    },
+    {
+        "source": "https://news.uams.edu/2015/07/29/uams-names-patricia-cowan-dean-of-college-of-nursing-2/",
+        "target": "https://news.uams.edu/2015/07/29/uams-names-patricia-cowan-dean-of-college-of-nursing/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 27559, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 27559
+    },
+    {
+        "source": "https://news.uams.edu/2015/07/30/tim-hill-named-uams-vice-chancellor-for-regional-programs-2/",
+        "target": "https://news.uams.edu/2015/07/30/tim-hill-named-uams-vice-chancellor-for-regional-programs/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 27645 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 27646,
+        "target_wordpress_post_id": 27645
+    },
+    {
+        "source": "https://news.uams.edu/2015/08/03/russellville-womans-scalp-reattached-by-uams-surgeon-2/",
+        "target": "https://news.uams.edu/2015/08/03/russellville-womans-scalp-reattached-by-uams-surgeon/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 27705 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 27911,
+        "target_wordpress_post_id": 27705
+    },
+    {
+        "source": "https://news.uams.edu/2015/08/03/uams-part-of-arkansas-consortium-awarded-20-million-by-national-science-foundation-2/",
+        "target": "https://news.uams.edu/2015/08/03/uams-part-of-arkansas-consortium-awarded-20-million-by-national-science-foundation/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 27673 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 27680,
+        "target_wordpress_post_id": 27673
+    },
+    {
+        "source": "https://news.uams.edu/2015/08/04/uams-medical-student-awarded-10000-by-arkansas-mutual-to-pursue-primary-care-2/",
+        "target": "https://news.uams.edu/2015/08/04/uams-medical-student-awarded-10000-by-arkansas-mutual-to-pursue-primary-care/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 27712 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 27713,
+        "target_wordpress_post_id": 27712
+    },
+    {
+        "source": "https://news.uams.edu/2015/10/29/the-partnership-for-a-healthy-arkansas-a-shared-services-organization-2/",
+        "target": "https://news.uams.edu/2015/10/29/the-partnership-for-a-healthy-arkansas-a-shared-services-organization/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 29528 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 29537,
+        "target_wordpress_post_id": 29528
+    },
+    {
+        "source": "https://news.uams.edu/2015/12/04/uams-becomes-home-to-cancer-imaging-archive-for-national-cancer-institute-2/",
+        "target": "https://news.uams.edu/2015/12/04/uams-becomes-home-to-cancer-imaging-archive-for-national-cancer-institute/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 29866 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 29868,
+        "target_wordpress_post_id": 29866
+    },
+    {
+        "source": "https://news.uams.edu/2016/06/02/nih-funds-uams-study-of-depression-program-in-delta-2/",
+        "target": "https://news.uams.edu/2016/06/02/nih-funds-uams-study-of-depression-program-in-delta/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 31501 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 31510,
+        "target_wordpress_post_id": 31501
+    },
+    {
+        "source": "https://news.uams.edu/2018/07/03/uams-telemedicine-program-in-magazine-school-district-reduces-obesity-2/",
+        "target": "https://news.uams.edu/2018/07/03/uams-telemedicine-program-in-magazine-school-district-reduces-obesity/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 40270 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 115624,
+        "target_wordpress_post_id": 40270
+    },
+    {
+        "source": "https://news.uams.edu/2019/02/13/sally-the-robot-now-serving-custom-salads-at-uams-2/",
+        "target": "https://news.uams.edu/2019/02/13/sally-the-robot-now-serving-custom-salads-at-uams/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 121562 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 121567,
+        "target_wordpress_post_id": 121562
+    },
+    {
+        "source": "https://news.uams.edu/2019/04/19/new-uams-screening-initiative-aims-to-save-vision-of-patients-with-diabetes-2/",
+        "target": "https://news.uams.edu/2019/04/19/new-uams-screening-initiative-aims-to-save-vision-of-patients-with-diabetes/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 123775, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 123775
+    },
+    {
+        "source": "https://news.uams.edu/2019/04/30/uams-celebrates-grand-opening-of-new-pine-bluff-regional-campus-2/",
+        "target": "https://news.uams.edu/2019/04/30/uams-celebrates-grand-opening-of-new-pine-bluff-regional-campus/",
+        "response": "301",
+        "notes": "Old slug of WordPress post 124384, renamed to its canonical slug (UAMS-Web/uams-statamic#798).",
+        "target_wordpress_post_id": 124384
+    },
+    {
+        "source": "https://news.uams.edu/2019/06/24/uamss-mcsweeney-named-american-heart-association-volunteer-of-the-year-2/",
+        "target": "https://news.uams.edu/2019/06/24/uamss-mcsweeney-named-american-heart-association-volunteer-of-the-year/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 126373 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 126380,
+        "target_wordpress_post_id": 126373
+    },
+    {
+        "source": "https://news.uams.edu/2019/07/03/nih-awards-five-year-24-2-million-grant-to-uams-translational-research-institute-2/",
+        "target": "https://news.uams.edu/2019/07/03/nih-awards-five-year-24-2-million-grant-to-uams-translational-research-institute/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 126704 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 126719,
+        "target_wordpress_post_id": 126704
+    },
+    {
+        "source": "https://news.uams.edu/2019/08/06/uams-head-start-program-receives-41-million-grant-2/",
+        "target": "https://news.uams.edu/2019/08/06/uams-head-start-program-receives-41-million-grant/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 127803 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 127810,
+        "target_wordpress_post_id": 127803
+    },
+    {
+        "source": "https://news.uams.edu/2025/02/10/uams-college-of-public-health-to-offer-new-doctoral-program-2/",
+        "target": "https://news.uams.edu/2025/02/10/uams-college-of-public-health-to-offer-new-doctoral-program/",
+        "response": "301",
+        "notes": "Duplicate of WordPress post 162926 (UAMS-Web/uams-statamic#798).",
+        "source_wordpress_post_id": 162932,
+        "target_wordpress_post_id": 162926
+    }
+]

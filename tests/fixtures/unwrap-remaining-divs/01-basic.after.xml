@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[news_contentTitleLine div is unwrapped with blank lines around it]]></title>
+        <link>https://news.uams.edu/sample-div-a/</link>
+        <content:encoded><![CDATA[LITTLE ROCK – Educators from across Arkansas are invited to attend Teaching with Technology, a symposium designed to give educators new tools and ideas for teaching in the classroom or online to be held July 23-24 at the University of Arkansas for Medical Sciences (UAMS).
+
+The ninth annual forum for educators and trainers at all levels and in all disciplines will be in the I. Dodd Wilson Education Building from 8:30 a.m.-5:30 p.m. July 23 and 8 a.m.-3:30 p.m. July 24.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Outer wp-caption div around already-canonical caption shortcode is dropped]]></title>
+        <link>https://news.uams.edu/sample-div-b/</link>
+        <content:encoded><![CDATA["The new Student Center will enhance the academic environment of the campus and give students from all of our colleges a gathering place for studying, relaxing between classes or meeting up for interdisciplinary social events," said Gardner. "In addition, the opening of Boulevard Bread at the center should please students, employees, patients and visitors by providing another option for breakfast or lunch."
+
+[caption id="attachment_99017" align="alignright" width="300"]<img class="wp-image-99017 size-medium" src="http://inside.uams.edu/wp-content/uploads/2016/09/SC-furniture-300x225.jpg" alt="The UAMS Student Center has comfy furniture with outlets for charging devices." width="300" height="225"> UAMS students requested that the new Student Center have comfy furniture with electrical outlets for charging devices.[/caption]
+
+Until now, the individual colleges have had lounges for their students, but there hasn't been a central space where students from across UAMS could gather, said Cheri Goforth, director of Campus Life and Student Support Services.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Section1 / Section2 boilerplate divs are unwrapped]]></title>
+        <link>https://news.uams.edu/sample-div-c/</link>
+        <content:encoded><![CDATA[<p>First section.</p>
+
+<p>Second section.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[div align="center" is unwrapped]]></title>
+        <link>https://news.uams.edu/sample-div-d/</link>
+        <content:encoded><![CDATA[Before.
+
+Centered content.
+
+After.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Nested divs both unwrap; collapse keeps blank lines bounded]]></title>
+        <link>https://news.uams.edu/sample-div-e/</link>
+        <content:encoded><![CDATA[Lead.
+
+Inner content.
+
+Trail.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Content with no divs is unchanged]]></title>
+        <link>https://news.uams.edu/sample-div-f/</link>
+        <content:encoded><![CDATA[<p>Just a paragraph.</p>
+<p>And another.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

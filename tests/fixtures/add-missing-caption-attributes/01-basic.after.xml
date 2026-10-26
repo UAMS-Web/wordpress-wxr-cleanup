@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Bare caption with no attrs gets id, align, width — img also gets width=300]]></title>
+        <link>https://news.uams.edu/sample-amca-a/</link>
+        <content:encoded><![CDATA[[caption id="" align="aligncenter" width="300"]<img src="a.jpg" alt="A" width="300"> Caption text.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Caption with only id keeps id, gets align and width — img also gets width=300]]></title>
+        <link>https://news.uams.edu/sample-amca-b/</link>
+        <content:encoded><![CDATA[[caption align="aligncenter" width="300" id="attachment_42"]<img src="b.jpg" alt="B" width="300"> Caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Caption with only align keeps align, gets id and width — img keeps existing width]]></title>
+        <link>https://news.uams.edu/sample-amca-c/</link>
+        <content:encoded><![CDATA[[caption id="" width="300" align="alignleft"]<img src="c.jpg" alt="C" width="500"> Caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Caption with only width keeps width, gets id and align — img keeps existing width]]></title>
+        <link>https://news.uams.edu/sample-amca-d/</link>
+        <content:encoded><![CDATA[[caption id="" align="aligncenter" width="600"]<img src="d.jpg" alt="D" width="600" height="400"> Caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Caption with all three attrs is unchanged — img keeps existing width and height]]></title>
+        <link>https://news.uams.edu/sample-amca-e/</link>
+        <content:encoded><![CDATA[[caption id="x" align="alignright" width="400"]<img src="e.jpg" alt="E" width="400" height="250"> Caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Multiple captions in one content — each opener gets defaults independently]]></title>
+        <link>https://news.uams.edu/sample-amca-f/</link>
+        <content:encoded><![CDATA[[caption id="" align="aligncenter" width="300"]<img src="f1.jpg" alt="F1" width="300"> First.[/caption][caption id="" width="300" align="alignleft"]<img src="f2.jpg" alt="F2" width="300"> Second.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[img outside any caption is unchanged even with no width]]></title>
+        <link>https://news.uams.edu/sample-amca-g/</link>
+        <content:encoded><![CDATA[<p>Inline image: <img src="g.jpg" alt="G"> here.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Caption shortcode whose attrs cross text-node boundaries via element — opener still in single text node so handled cleanly]]></title>
+        <link>https://news.uams.edu/sample-amca-h/</link>
+        <content:encoded><![CDATA[<p>Lead. [caption id="" align="aligncenter" width="300"]<img src="h.jpg" alt="H" width="300"> Caption.[/caption] Trail.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

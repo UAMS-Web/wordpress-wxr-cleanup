@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>p with single embed unwraps</title>
+        <link>https://news.uams.edu/sample-uep-a/</link>
+        <content:encoded><![CDATA[<p><embed src="http://example.com/foo.swf" width="425" height="344" /></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with two embeds unwraps with both lifted</title>
+        <link>https://news.uams.edu/sample-uep-b/</link>
+        <content:encoded><![CDATA[<p><embed src="a.swf" /><embed src="b.swf" /></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with text alongside embed is left alone</title>
+        <link>https://news.uams.edu/sample-uep-c/</link>
+        <content:encoded><![CDATA[<p>Watch this: <embed src="x.swf" /></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with embed plus br plus whitespace unwraps</title>
+        <link>https://news.uams.edu/sample-uep-d/</link>
+        <content:encoded><![CDATA[<p><br><embed src="d.swf" /><br>   </p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with embed plus an image is left alone</title>
+        <link>https://news.uams.edu/sample-uep-e/</link>
+        <content:encoded><![CDATA[<p><img src="x.jpg"><embed src="x.swf" /></p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p with no embed is left alone</title>
+        <link>https://news.uams.edu/sample-uep-f/</link>
+        <content:encoded><![CDATA[<p>Regular paragraph.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

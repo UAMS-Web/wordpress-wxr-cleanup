@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>align=left on p is stripped</title>
+        <link>https://news.uams.edu/2002/sample-ja/</link>
+        <content:encoded><![CDATA[<p align="left">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>align=left on td is stripped</title>
+        <link>https://news.uams.edu/2002/sample-jb/</link>
+        <content:encoded><![CDATA[<table><tr><td align="left">Foo</td></tr></table>]]></content:encoded>
+    </item>
+    <item>
+        <title>align=LEFT (uppercase value) is stripped</title>
+        <link>https://news.uams.edu/2002/sample-jc/</link>
+        <content:encoded><![CDATA[<p align="LEFT">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>align=right is preserved</title>
+        <link>https://news.uams.edu/2002/sample-jd/</link>
+        <content:encoded><![CDATA[<p align="right">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>align=center is preserved</title>
+        <link>https://news.uams.edu/2002/sample-je/</link>
+        <content:encoded><![CDATA[<p align="center">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>align=justify is preserved</title>
+        <link>https://news.uams.edu/2002/sample-jf/</link>
+        <content:encoded><![CDATA[<p align="justify">Foo</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Other attributes on the same tag are preserved</title>
+        <link>https://news.uams.edu/2002/sample-jg/</link>
+        <content:encoded><![CDATA[<p align="left" class="intro">Foo</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

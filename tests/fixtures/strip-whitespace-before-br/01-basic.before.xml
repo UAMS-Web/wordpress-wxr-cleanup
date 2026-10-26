@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Trailing spaces before br stripped</title>
+        <link>https://news.uams.edu/2002/sample-bb/</link>
+        <content:encoded><![CDATA[Foo   <br>Bar]]></content:encoded>
+    </item>
+    <item>
+        <title>Newline plus indent before br stripped</title>
+        <link>https://news.uams.edu/2002/sample-bc/</link>
+        <content:encoded><![CDATA[Foo
+        <br>Bar]]></content:encoded>
+    </item>
+    <item>
+        <title>Tab before br stripped</title>
+        <link>https://news.uams.edu/2002/sample-bd/</link>
+        <content:encoded><![CDATA[Foo	<br>Bar]]></content:encoded>
+    </item>
+    <item>
+        <title>No whitespace before br is unchanged</title>
+        <link>https://news.uams.edu/2002/sample-be/</link>
+        <content:encoded><![CDATA[Foo<br>Bar]]></content:encoded>
+    </item>
+    <item>
+        <title>NBSP before br is preserved</title>
+        <link>https://news.uams.edu/2002/sample-bf/</link>
+        <content:encoded><![CDATA[Foo&nbsp;<br>Bar]]></content:encoded>
+    </item>
+</channel>
+</rss>

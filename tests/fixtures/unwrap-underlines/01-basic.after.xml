@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Single u is unwrapped]]></title>
+        <link>https://news.uams.edu/2002/sample-fa/</link>
+        <content:encoded><![CDATA[See the underlined word.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Nested u flattens]]></title>
+        <link>https://news.uams.edu/2002/sample-fb/</link>
+        <content:encoded><![CDATA[doubly]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[u containing other inline tags unwraps the u only]]></title>
+        <link>https://news.uams.edu/2002/sample-fc/</link>
+        <content:encoded><![CDATA[foo <strong>bar</strong> baz]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Unrelated tags are left alone]]></title>
+        <link>https://news.uams.edu/2002/sample-fd/</link>
+        <content:encoded><![CDATA[<p>Foo <strong>bar</strong> baz</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

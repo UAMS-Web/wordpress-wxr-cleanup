@@ -1,0 +1,45 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// Writes the redirect pairs a duplicate disposition implies, as JSON (see README).
+// Autoload works from a clone or from a consuming app's vendor/bin/.
+$candidates = [
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php',
+];
+
+foreach ($candidates as $candidate) {
+    if (file_exists($candidate)) {
+        require $candidate;
+        break;
+    }
+}
+
+use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
+use UamsWeb\WxrCleanup\Disposition\RedirectPairs;
+
+if ($argc < 2 || $argc > 3) {
+    fwrite(STDERR, "Usage: wxr-redirect-pairs <disposition.json> [pairs.json]\n");
+    fwrite(STDERR, "  Without pairs.json: writes to stdout.\n");
+    exit(1);
+}
+
+try {
+    $json = RedirectPairs::toJson(DuplicateDisposition::fromFile($argv[1]));
+} catch (InvalidArgumentException $exception) {
+    fwrite(STDERR, "Error: {$exception->getMessage()}\n");
+    exit(1);
+}
+
+if (isset($argv[2])) {
+    if (file_put_contents($argv[2], $json) === false) {
+        fwrite(STDERR, "Error: cannot write output file: {$argv[2]}\n");
+        exit(1);
+    }
+
+    exit(0);
+}
+
+fwrite(STDOUT, $json);

@@ -1,0 +1,87 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// Rebuilds a site's duplicate disposition from its WXR export by the rule in
+// DuplicateSetFinder (see README). A maintenance tool: run it to regenerate
+// dispositions/<site>.json after the export changes, then review the diff.
+$candidates = [
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php',
+];
+
+foreach ($candidates as $candidate) {
+    if (file_exists($candidate)) {
+        require $candidate;
+        break;
+    }
+}
+
+use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
+use UamsWeb\WxrCleanup\Disposition\DuplicateSetFinder;
+use UamsWeb\WxrCleanup\Disposition\WxrPosts;
+
+$usage = "Usage: build-duplicate-disposition --site=<host> --ticket=<owner/repo#N> --excluded=<urls.txt> <output.json> <export.xml>...\n";
+
+$options = [];
+$positional = [];
+foreach (array_slice($argv, 1) as $argument) {
+    if (preg_match('/^--(site|ticket|excluded)=(.+)$/', $argument, $match) === 1) {
+        $options[$match[1]] = $match[2];
+
+        continue;
+    }
+
+    if (str_starts_with($argument, '--')) {
+        fwrite(STDERR, "Error: unknown option: {$argument}\n");
+        fwrite(STDERR, $usage);
+        exit(1);
+    }
+
+    $positional[] = $argument;
+}
+
+if (! isset($options['site'], $options['ticket'], $options['excluded']) || count($positional) < 2) {
+    fwrite(STDERR, $usage);
+    exit(1);
+}
+
+$excluded = [];
+$lines = file($options['excluded'], FILE_IGNORE_NEW_LINES);
+if ($lines === false) {
+    fwrite(STDERR, "Error: cannot read excluded list: {$options['excluded']}\n");
+    exit(1);
+}
+
+foreach ($lines as $line) {
+    $line = trim($line);
+    if ($line === '' || str_starts_with($line, '#')) {
+        continue;
+    }
+
+    if (preg_match('#^https://[^/]+/(\d{4})/(\d{2})/(\d{2})/([a-z0-9-]+)/$#', $line, $match) !== 1) {
+        fwrite(STDERR, "Error: not a permalink: {$line}\n");
+        exit(1);
+    }
+
+    $excluded[] = ['date' => "{$match[1]}-{$match[2]}-{$match[3]}", 'slug' => $match[4]];
+}
+
+$output = array_shift($positional);
+
+try {
+    $posts = WxrPosts::read($positional);
+    $sets = DuplicateSetFinder::find($posts, $excluded);
+    $disposition = DuplicateDisposition::fromFoundSets($options['site'], 'https://'.$options['site'], $options['ticket'], $sets);
+} catch (RuntimeException|InvalidArgumentException $exception) {
+    fwrite(STDERR, "Error: {$exception->getMessage()}\n");
+    exit(1);
+}
+
+if (file_put_contents($output, $disposition->toJson()) === false) {
+    fwrite(STDERR, "Error: cannot write output file: {$output}\n");
+    exit(1);
+}
+
+fwrite(STDERR, sprintf("Read %d posts; wrote %d sets to %s.\n", count($posts), count($sets), $output));

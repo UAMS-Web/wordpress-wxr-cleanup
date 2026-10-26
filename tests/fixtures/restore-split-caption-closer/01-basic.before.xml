@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Adjacent ps with closer at start of second — closer moves</title>
+        <link>https://news.uams.edu/sample-rscc-a/</link>
+        <content:encoded><![CDATA[<p>[caption]<img src="a.jpg" alt="A"> First line of caption</p><p>[/caption]Trailing prose.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Whitespace between paragraphs — closer still moves</title>
+        <link>https://news.uams.edu/sample-rscc-b/</link>
+        <content:encoded><![CDATA[<p>[caption]<img src="b.jpg" alt="B"> First line of caption</p>
+<p>[/caption]Trailing prose.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Leading whitespace inside second p before closer — closer still moves, whitespace preserved</title>
+        <link>https://news.uams.edu/sample-rscc-c/</link>
+        <content:encoded><![CDATA[<p>[caption]<img src="c.jpg" alt="C"> First</p>
+<p>
+[/caption]Trailing.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Real-world style: caption with internal br line break wpautop-split</title>
+        <link>https://news.uams.edu/sample-rscc-d/</link>
+        <content:encoded><![CDATA[<p>[caption]<img alt="Helen Lang, R.N., left, poses with Claudia Barone, Ed.D., R.N." src="https://news.uams.edu/wp-content/uploads/2009/02/lang-scholarship-uams.jpg"> Helen Lang, R.N., left, poses with<br>Claudia Barone, Ed.D., R.N.,</p>
+<p>[/caption]Helen Lang dedicated her career to nursing.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p starting with closer but previous sibling is not a p — left alone</title>
+        <link>https://news.uams.edu/sample-rscc-e/</link>
+        <content:encoded><![CDATA[<div>Some div content</div><p>[/caption]Orphan closer.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>p starting with an img then closer — leading content disqualifies</title>
+        <link>https://news.uams.edu/sample-rscc-f/</link>
+        <content:encoded><![CDATA[<p>[caption]<img src="x.jpg" alt="X"> First</p><p><img src="y.jpg" alt="Y">[/caption]Trailing.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Content with no split caption pattern is unchanged</title>
+        <link>https://news.uams.edu/sample-rscc-g/</link>
+        <content:encoded><![CDATA[<p>First paragraph.</p>
+<p>Second paragraph.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

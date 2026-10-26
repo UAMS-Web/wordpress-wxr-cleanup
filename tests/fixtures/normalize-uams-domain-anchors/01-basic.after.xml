@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[uams.edu variants canonicalize]]></title>
+        <link>https://news.uams.edu/sample-anchor-a/</link>
+        <content:encoded><![CDATA[<p>Visit <a href="https://uams.edu/">uams.edu</a> or <a href="https://uams.edu/">uams.edu</a> or <a href="https://uams.edu/">uams.edu</a> for details.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[uamshealth.com variants canonicalize]]></title>
+        <link>https://news.uams.edu/sample-anchor-b/</link>
+        <content:encoded><![CDATA[<p>See <a href="https://uamshealth.com/">uamshealth.com</a>, <a href="https://uamshealth.com/">uamshealth.com</a>, <a href="https://uamshealth.com/">uamshealth.com</a>, <a href="https://uamshealth.com/">uamshealth.com</a>, and <a href="https://uamshealth.com/">uamshealth.com</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Anchor with surrounding whitespace still matches]]></title>
+        <link>https://news.uams.edu/sample-anchor-c/</link>
+        <content:encoded><![CDATA[<p><a href="https://uams.edu/">uams.edu</a></p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Anchor with non-UAMS text is left alone]]></title>
+        <link>https://news.uams.edu/sample-anchor-d/</link>
+        <content:encoded><![CDATA[<p><a href="http://example.com/">Example.com</a> and <a href="https://uams.edu/">UAMS home page</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Anchor wrapping an image is left alone]]></title>
+        <link>https://news.uams.edu/sample-anchor-e/</link>
+        <content:encoded><![CDATA[<p><a href="http://www.uams.edu/"><img src="https://news.uams.edu/logo.png" alt="uams.edu"></a></p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Anchor with nested element is left alone]]></title>
+        <link>https://news.uams.edu/sample-anchor-f/</link>
+        <content:encoded><![CDATA[<p><a href="http://www.uams.edu/"><strong>uams.edu</strong></a></p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Already-canonical anchor is idempotent]]></title>
+        <link>https://news.uams.edu/sample-anchor-g/</link>
+        <content:encoded><![CDATA[<p><a href="https://uams.edu/">uams.edu</a> and <a href="https://uamshealth.com/">uamshealth.com</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Hrefless anchor is canonicalized (gains href)]]></title>
+        <link>https://news.uams.edu/sample-anchor-h/</link>
+        <content:encoded><![CDATA[<p>Visit <a class="content" href="https://uamshealth.com/">uamshealth.com</a> and <a target="_blank" href="https://uams.edu/">uams.edu</a>.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>Community match program</title>
+        <link>https://news.uams.edu/2002/community-match/</link>
+        <content:encoded><![CDATA[<span class="content"><span style="font-size: 13px; font-family: arial;">Nov. 6, 2002</span>
+<p><span style="font-size: 13px; font-family: arial;">Eight new medical students at the University of Arkansas for Medical Sciences (UAMS) have received appointments in the Community Match Program of the Rural Medical Practice Student Loan and Scholarship Board.<br />
+<br />
+The program will subsidize one or more years of the students' medical education in exchange for their practicing primary care - family medicine, internal medicine, obstetrics and gynecology, or pediatrics - in rural communities for the same number of years after completing their medical training.</span></p>
+<p><span style="font-size: 13px; font-family: arial;">The students and the communities where they have promised to practice are Elizabeth Eoff of Arkadelphia (Harrison), Robin Forward of Camden (Magnolia), David Geidl of Rogers (Clinton), Daniel Hardin of Heber Springs (Heber Springs), Seth Hollenbach of Murfreesboro (Nashville), Giri Srikanthan of Little Rock (Clinton), Alan Von Gremp of Rogers (Pea Ridge), and Brad Walsh of Crossett (Crossett).<br />
+<br />
+Yvonne L. Lewis, Ed.D., coordinator for the program, commented, "The Community Match Program is a terrific opportunity for a future physician to improve the health of rural Arkansans while lessening the financial burden of attending the UAMS College of Medicine."<br />
+<br />
+The students join 90 others who have been community match participants since the program's inception in 1998. The Arkansas General Assembly funds the program.</span></p>
+<p><span style="font-size: 13px; font-family: arial;">Several participants have completed their residencies, or advanced, medical training and are now practicing in rural communities. <br />
+<br />
+Kirk Coker, M.D., of Stuttgart, Ark., was a participant in the Community Match Program and did his residency at the UAMS AHEC in Pine Bluff. He commented recently,<b> </b>"The Community Match Program is a win-win situation for all participants. Most importantly, it places physicians into rural areas of the state that may not otherwise be able to receive medical care. It also provides the opportunity for people to go to medical school.</span></p>
+<p><span style="font-size: 13px; font-family: arial;">"I had a wonderful experience at the AHEC in Pine Bluff. Although Pine Bluff isn't a rural town, the patient population I served came from several underprivileged rural areas in south Arkansas. When I entered medical school at UAMS, I already knew that I wanted to go back to my hometown of Stuttgart to practice. Working with the rural population around Pine Bluff solidified my decision."</span></p>
+</span>]]></content:encoded>
+        <excerpt:encoded><![CDATA[&lt;span class="content"&gt;&lt;span style="font-size: 13px; font-family: arial;"&gt;Eight new medical students at the University of Arkansas for Medical Sciences (UAMS) have received appointments in the Community Match Program of the Rural Medical Practice Student Loan and Scholarship Board.&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt;]]></excerpt:encoded>
+    </item>
+</channel>
+</rss>

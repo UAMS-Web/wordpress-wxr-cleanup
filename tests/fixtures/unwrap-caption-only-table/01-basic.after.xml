@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Three-row caption gallery table unwraps with each caption padded by newlines]]></title>
+        <link>https://news.uams.edu/sample-ucot-a/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://uamshealth.com/upload/images/Newsroom/Features/health2008/bunny-breast-cancer.jpg" alt="The Energizer spa will stop in 20 cities this year."> The Energizer spa will stop in 20 cities this year.[/caption]
+
+[caption]<img src="https://uamshealth.com/upload/images/Newsroom/Features/health2008/tent-breast-cancer.jpg" alt="About 100 women participated in the one-day event"> About 100 women participated in the one-day event.[/caption]
+
+[caption]<img src="https://uamshealth.com/upload/images/Newsroom/Features/health2008/massage-breast-cancer.jpg" alt=" Staff members of Turtle Cove Spa donated their time to provide massages and manicures."> Staff members of Turtle Cove Spa donated their time to provide massages and manicures.[/caption]
+
+<p>Oct. 10, 2008 | A sunny autumn day was made even brighter for breast cancer patients, survivors and caregivers courtesy of the Energizer battery company.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Single-row caption table unwraps]]></title>
+        <link>https://news.uams.edu/sample-ucot-b/</link>
+        <content:encoded><![CDATA[[caption]<img src="b.jpg" alt="B"> Solo.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Table with non-caption td is not unwrapped]]></title>
+        <link>https://news.uams.edu/sample-ucot-c/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>[caption]<img src="c.jpg" alt="C"> Caption.[/caption]</td></tr><tr><td>Plain text cell.</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Table with td containing two captions is not unwrapped]]></title>
+        <link>https://news.uams.edu/sample-ucot-d/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>[caption]<img src="d1.jpg" alt="D1"> One.[/caption][caption]<img src="d2.jpg" alt="D2"> Two.[/caption]</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Table with td containing caption plus trailing prose is not unwrapped]]></title>
+        <link>https://news.uams.edu/sample-ucot-e/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>[caption]<img src="e.jpg" alt="E"> Caption.[/caption] Trail.</td></tr></tbody></table>]]></content:encoded>
+    </item>
+</channel>
+</rss>

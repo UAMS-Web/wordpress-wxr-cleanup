@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Single VML shape stripped with content]]></title>
+        <link>https://news.uams.edu/2002/sample-ea/</link>
+        <content:encoded><![CDATA[Before  after.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[VML formula stripped]]></title>
+        <link>https://news.uams.edu/2002/sample-eb/</link>
+        <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Nested VML stripped at the outer level]]></title>
+        <link>https://news.uams.edu/2002/sample-ec/</link>
+        <content:encoded><![CDATA[Before  after.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[o:lock stripped]]></title>
+        <link>https://news.uams.edu/2002/sample-ed/</link>
+        <content:encoded><![CDATA[Before  after.]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Multiple VML/Office tags in one body]]></title>
+        <link>https://news.uams.edu/2002/sample-ee/</link>
+        <content:encoded><![CDATA[middle  end .]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Unrelated tags are left alone]]></title>
+        <link>https://news.uams.edu/2002/sample-ef/</link>
+        <content:encoded><![CDATA[<p>Foo <span>bar</span> baz</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

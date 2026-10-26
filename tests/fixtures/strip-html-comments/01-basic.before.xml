@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>WordPress block comments are stripped</title>
+        <link>https://news.uams.edu/2002/sample-ha/</link>
+        <content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Meet Tayae Marks, the MVP for January is Tayae Marks, who has been an asset to UAMS for 18 years.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tayae is the director of pre-registration.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+    </item>
+    <item>
+        <title>Bare comment between elements is stripped</title>
+        <link>https://news.uams.edu/2002/sample-hb/</link>
+        <content:encoded><![CDATA[<p>Before</p>
+<!-- some note -->
+<p>After</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Comment inside a paragraph is stripped</title>
+        <link>https://news.uams.edu/2002/sample-hc/</link>
+        <content:encoded><![CDATA[<p>foo<!-- inline comment -->bar</p>]]></content:encoded>
+    </item>
+    <item>
+        <title>Content without comments is unchanged</title>
+        <link>https://news.uams.edu/2002/sample-hd/</link>
+        <content:encoded><![CDATA[<p>Hello world.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

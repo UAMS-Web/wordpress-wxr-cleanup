@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>The “quote” is a test — it’s fine</title>
+        <link>https://news.uams.edu/2002/sample-t/</link>
+        <content:encoded><![CDATA[<p>She said, “Hello.” It’s a ‘nice’ test.</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[She said, &#8220;Hello.&#8221; It&#8217;s a test.]]></excerpt:encoded>
+    </item>
+    <item>
+        <title>Mixed in attribute values is left alone</title>
+        <link>https://news.uams.edu/2002/sample-u/</link>
+        <content:encoded><![CDATA[<p title="“ignored”">She said, “hi.”</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[1. Two captions in a p separated by whitespace]]></title>
+        <link>https://news.uams.edu/sample-lc-1/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[2. Caption, prose, caption — prose gets its own p]]></title>
+        <link>https://news.uams.edu/sample-lc-2/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+
+<p>Lorem ipsum dolor sit amet.</p>
+
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[3. Two captions then prose — prose gets its own p after]]></title>
+        <link>https://news.uams.edu/sample-lc-3/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]
+
+<p>Lorem ipsum dolor sit amet.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[4. Prose then two captions — prose gets its own p before]]></title>
+        <link>https://news.uams.edu/sample-lc-4/</link>
+        <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet.</p>
+
+[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[5. Two captions separated by a br]]></title>
+        <link>https://news.uams.edu/sample-lc-5/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[6. Caption, br, prose, br, caption]]></title>
+        <link>https://news.uams.edu/sample-lc-6/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+
+<p>Lorem ipsum dolor sit amet.</p>
+
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[7. Caption, br, caption, br, prose]]></title>
+        <link>https://news.uams.edu/sample-lc-7/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]
+
+<p>Lorem ipsum dolor sit amet.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[8. Prose, br, caption, br, caption]]></title>
+        <link>https://news.uams.edu/sample-lc-8/</link>
+        <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet.</p>
+
+[caption]<img src="https://example.com/image1.jpg" alt="Foo"> Bar[/caption]
+[caption]<img src="https://example.com/image2.jpg" alt="Baz"> Qux[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[9. p with no caption is unchanged]]></title>
+        <link>https://news.uams.edu/sample-lc-9/</link>
+        <content:encoded><![CDATA[<p>Just plain prose.</p>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[10. p with one caption only (UnwrapCaptionOnlyParagraph would normally handle this, but the rule still works)]]></title>
+        <link>https://news.uams.edu/sample-lc-10/</link>
+        <content:encoded><![CDATA[[caption]<img src="https://example.com/image.jpg" alt="A"> Caption.[/caption]]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[11. p with unbalanced markers is left alone]]></title>
+        <link>https://news.uams.edu/sample-lc-11/</link>
+        <content:encoded><![CDATA[<p>[caption]<img src="https://example.com/image.jpg" alt="A"> Partial.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

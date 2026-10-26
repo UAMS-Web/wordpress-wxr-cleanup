@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[td with img + br + text becomes bare caption inside td (Path F)]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-a/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>[caption]<img alt="The Energizer spa will stop in 20 cities this year." src="https://uamshealth.com/upload/images/Newsroom/Features/health2008/bunny-breast-cancer.jpg"> The Energizer spa will stop in 20 cities this year.[/caption]</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[td with no br is not matched]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-b/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td><img src="b.jpg" alt="B"> Inline caption.</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[td with img + br + img is not matched]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-c/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td><img src="c1.jpg" alt="C1"><br><img src="c2.jpg" alt="C2"></td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[td with empty text after br is not matched]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-d/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td><img src="d.jpg" alt="D"><br>   </td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Multi-row table with img+br+text cells each converts (Path F per cell)]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-e/</link>
+        <content:encoded><![CDATA[<table><tbody><tr><td>[caption]<img src="e1.jpg" alt="E1"> One.[/caption]</td></tr><tr><td>[caption]<img src="e2.jpg" alt="E2"> Two.[/caption]</td></tr></tbody></table>]]></content:encoded>
+    </item>
+    <item>
+        <title><![CDATA[td containing p align=right with img+br+text is captionized via Path E first]]></title>
+        <link>https://news.uams.edu/sample-cic-pf-f/</link>
+        <content:encoded><![CDATA[<table align="right"><tbody><tr><td>
+[caption align="alignright"]<img alt="AHA Board Chairman" src="https://example.com/wilson-award.jpg"> AHA Board Chairman text.[/caption]
+</td></tr><tr><td>
+[caption align="alignright"]<img alt="UAMS Chancellor" src="https://example.com/wilson-award-uams.jpg"> UAMS Chancellor text.[/caption]
+</td></tr></tbody></table>]]></content:encoded>
+    </item>
+</channel>
+</rss>

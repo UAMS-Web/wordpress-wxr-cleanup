@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title>attachment-id dl wrapping a caption dt and body dd is unwrapped</title>
+        <link>https://news.uams.edu/sample-dl-a/</link>
+        <content:encoded><![CDATA[No – what the two argue about is who gets the credit for Mehaffey's successes.
+
+<dl id="attachment_33944">
+<dt>
+
+[caption id="" align="alignleft" width="209"]<a href="https://news.uams.edu/wp-content/uploads/2017/03/IMG_6756-edited.jpg" rel="attachment wp-att-33944"><img src="https://news.uams.edu/wp-content/uploads/2017/03/IMG_6756-edited-209x300.jpg" alt="Mehaffey standing outside neurology clinic" width="209" height="300"></a> Mehaffey was inspired to go into medicine when her older sister was diagnosed with multiple sclerosis.[/caption]</dt>
+<dd>Mehaffey remembers Archer as a warm and inviting educator who opened doors for her from day one of medical school at UAMS and continued to do so during her residency in neurology in his department. She counts herself lucky that he essentially crafted her current position from nothing, allowing her to become the first MS fellow at UAMS and the only one in the state.</dd>
+</dl>
+
+"A lot of people came together to – literally – make my dreams come true," Mehaffey said. "People don't do that kind of thing for you every day. I am extremely grateful."]]></content:encoded>
+    </item>
+    <item>
+        <title>dl with just a dt and no dd unwraps cleanly</title>
+        <link>https://news.uams.edu/sample-dl-b/</link>
+        <content:encoded><![CDATA[Prose before.
+<dl id="attachment_42"><dt>Just a caption block.</dt></dl>
+Prose after.]]></content:encoded>
+    </item>
+    <item>
+        <title>Bare dt and dd siblings outside a dl still unwrap</title>
+        <link>https://news.uams.edu/sample-dl-c/</link>
+        <content:encoded><![CDATA[Lead.<dt>Stray dt.</dt><dd>Stray dd.</dd>Trail.]]></content:encoded>
+    </item>
+    <item>
+        <title>Multiple dt/dd pairs inside one dl each get their own blank line</title>
+        <link>https://news.uams.edu/sample-dl-d/</link>
+        <content:encoded><![CDATA[<dl><dt>Term 1</dt><dd>Definition 1</dd><dt>Term 2</dt><dd>Definition 2</dd></dl>]]></content:encoded>
+    </item>
+    <item>
+        <title>Content with no definition-list elements is unchanged</title>
+        <link>https://news.uams.edu/sample-dl-e/</link>
+        <content:encoded><![CDATA[<p>Just a paragraph.</p>]]></content:encoded>
+    </item>
+</channel>
+</rss>

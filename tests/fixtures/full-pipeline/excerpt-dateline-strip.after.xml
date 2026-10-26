@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0">
+<channel>
+    <title>UAMS News</title>
+    <link>https://news.uams.edu/</link>
+    <item>
+        <title><![CDATA[Excerpt dateline stripped; content dateline normalized]]></title>
+        <link>https://news.uams.edu/2003/excerpt-dateline/</link>
+        <content:encoded><![CDATA[LITTLE ROCK, Ark. — The University of Arkansas for Medical Sciences (UAMS) launched a new program today.]]></content:encoded>
+        <excerpt:encoded><![CDATA[The University of Arkansas for Medical Sciences (UAMS) launched a new program today.]]></excerpt:encoded>
+    </item>
+    <item>
+        <title><![CDATA[FORT SMITH excerpt dateline stripped]]></title>
+        <link>https://news.uams.edu/2003/fort-smith-excerpt/</link>
+        <content:encoded><![CDATA[FORT SMITH, Ark. — William E. Golden, M.D., will discuss quality.]]></content:encoded>
+        <excerpt:encoded><![CDATA[William E. Golden, M.D., will discuss quality.]]></excerpt:encoded>
+    </item>
+    <item>
+        <title><![CDATA[Excerpt without dateline is left alone]]></title>
+        <link>https://news.uams.edu/2003/no-dateline/</link>
+        <content:encoded><![CDATA[The seminar is open to the public.]]></content:encoded>
+        <excerpt:encoded><![CDATA[The seminar is open to the public.]]></excerpt:encoded>
+    </item>
+</channel>
+</rss>
