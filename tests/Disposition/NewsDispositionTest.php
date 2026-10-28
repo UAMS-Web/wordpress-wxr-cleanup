@@ -6,7 +6,7 @@ use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
 use UamsWeb\WxrCleanup\Disposition\RedirectPairs;
 
 /**
- * The committed news.uams.edu disposition and its redirect pairs (`UAMS-Web/uams-statamic#798`).
+ * The committed news.uams.edu disposition and its redirect pairs (`UAMS-Web/uams-statamic#46`).
  *
  * The 140 sets were built from the news export by `bin/build-duplicate-disposition`; these tests
  * keep the committed files consistent with each other and with the rules a disposition must meet.

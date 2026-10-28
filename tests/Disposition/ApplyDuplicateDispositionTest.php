@@ -8,7 +8,7 @@ use UamsWeb\WxrCleanup\Tests\Disposition\Support;
 use UamsWeb\WxrCleanup\Transform;
 
 /**
- * The whole-post drop for `UAMS-Web/uams-statamic#798`: posts the disposition marks are removed,
+ * The whole-post drop for `UAMS-Web/uams-statamic#46`: posts the disposition marks are removed,
  * a kept post takes its canonical slug, and nothing else in the export changes.
  *
  * @return array{wxr: string, dropped: list<int>, renamed: list<int>}

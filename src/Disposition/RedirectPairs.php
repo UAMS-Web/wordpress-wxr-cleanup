@@ -9,8 +9,8 @@ namespace UamsWeb\WxrCleanup\Disposition;
  * a kept post's old permalink when its slug changes, pointed at the set's canonical permalink.
  *
  * `uams-statamic`'s `content:generate-migration-redirects --dedup-redirects` reads this list
- * (`UAMS-Web/uams-statamic#2943`) and resolves each target to the kept entry's Statamic URL by
- * `target_wordpress_post_id` (`UAMS-Web/uams-statamic#2960`), so one `301` takes a dropped URL
+ * (`UAMS-Web/uams-statamic-archive#2943`) and resolves each target to the kept entry's Statamic URL by
+ * `target_wordpress_post_id` (`UAMS-Web/uams-statamic-archive#2960`), so one `301` takes a dropped URL
  * straight to its new page. The pairs are derived from the disposition alone, not from an
  * export, because one set's members can sit in different files of a split export.
  *

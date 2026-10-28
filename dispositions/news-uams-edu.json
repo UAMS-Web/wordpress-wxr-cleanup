@@ -4,7 +4,7 @@
     "permalink_base": "https://news.uams.edu",
     "sets": [
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "former-student-delivers-inaugural-yasargil-lecture-at-uams",
             "keep": {
                 "post_id": 12240,
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "retreat-celebrates-educates-ovarian-cancer-survivors",
             "keep": {
                 "post_id": 12288,
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "researcher-receives-grant-to-study-brain-activity-of-addicts",
             "keep": {
                 "post_id": 12335,
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-doctoral-candidates-receive-white-coats-at-ceremony",
             "keep": {
                 "post_id": 12239,
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "pat-torvestad-serves-as-race-for-the-cure-honorary-chairwoman",
             "keep": {
                 "post_id": 12285,
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-celebrates-diversity-with-week-of-events",
             "keep": {
                 "post_id": 12238,
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "jones-eye-institutes-bora-westfall-receive-inaugural-chairs",
             "keep": {
                 "post_id": 12237,
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-recognized-for-leadership-in-cancer-research-data-system",
             "keep": {
                 "post_id": 12284,
@@ -137,7 +137,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "new-uams-education-building-named-for-wilson",
             "keep": {
                 "post_id": 12235,
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "hamra-named-cancer-institute-volunteer-of-the-year",
             "keep": {
                 "post_id": 12234,
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "hospital-association-architects-honor-chancellor-wilson",
             "keep": {
                 "post_id": 12283,
@@ -185,7 +185,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-miniature-golf-outing-a-success-for-safe-from-the-start",
             "keep": {
                 "post_id": 12233,
@@ -201,7 +201,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-employees-celebrate-halloween",
             "keep": {
                 "post_id": 12232,
@@ -217,7 +217,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "recent-historical-gifts-to-uams-help-preserve-the-past",
             "keep": {
                 "post_id": 12231,
@@ -233,7 +233,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "u-s-rep-ross-speaks-to-uams-college-of-pharmacy",
             "keep": {
                 "post_id": 12229,
@@ -249,7 +249,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-nurse-wins-national-award-for-contributions-to-womens-health",
             "keep": {
                 "post_id": 12282,
@@ -265,7 +265,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-pathologist-secures-funding-for-better-health-care-in-haiti",
             "keep": {
                 "post_id": 12228,
@@ -281,7 +281,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "biomedical-career-day-speakers-pitch-potential-post-grad-paths",
             "keep": {
                 "post_id": 12227,
@@ -297,7 +297,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "distinguished-lecturer-hobbs-sees-progress-in-fight-against-birth-defects",
             "keep": {
                 "post_id": 12226,
@@ -313,7 +313,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "walton-family-foundation-donates-300000-to-uams-for-northwest-campus",
             "keep": {
                 "post_id": 12225,
@@ -334,7 +334,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "arkansas-philanthropists-give-uams-northwest-1-5-million",
             "keep": {
                 "post_id": 12224,
@@ -350,7 +350,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-college-of-public-health-hosts-mexican-counterparts",
             "keep": {
                 "post_id": 12223,
@@ -366,7 +366,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "glass-art-graces-uams-psychiatric-research-institute",
             "keep": {
                 "post_id": 12221,
@@ -382,7 +382,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "cancer-researcher-awarded-postdoctoral-fellowship-award",
             "keep": {
                 "post_id": 12241,
@@ -398,7 +398,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "ashley-county-women-raise-28000-for-cancer-programs-at-uams",
             "keep": {
                 "post_id": 12290,
@@ -414,7 +414,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-celebrates-mental-health-care",
             "keep": {
                 "post_id": 12289,
@@ -430,7 +430,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-psychiatric-research-institute-grand-opening-consolidates-research-education-and-treatment",
             "keep": {
                 "post_id": 12208,
@@ -446,7 +446,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "new-mega-mri-system-at-uams-to-aid-in-study-of-the-brain",
             "keep": {
                 "post_id": 12291,
@@ -462,7 +462,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "head-start-classes-bring-holiday-cheer-to-uams",
             "keep": {
                 "post_id": 12245,
@@ -478,7 +478,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "turnage-named-uams-surgery-department-chairman-3",
             "keep": {
                 "post_id": 12273,
@@ -504,7 +504,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "wei-named-executive-director-of-institute-on-aging",
             "keep": {
                 "post_id": 12189,
@@ -520,7 +520,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-celebrates-opening-of-10-story-high-tech-hospital",
             "keep": {
                 "post_id": 12190,
@@ -541,7 +541,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-honored-for-mash-program",
             "keep": {
                 "post_id": 12246,
@@ -557,7 +557,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-osteoporosis-drug-research-in-new-england-journal-of-medicine",
             "keep": {
                 "post_id": 12247,
@@ -573,7 +573,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-faculty-member-receives-national-award",
             "keep": {
                 "post_id": 12249,
@@ -589,7 +589,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "weight-loss-helps-reduce-urinary-incontinence-study-finds",
             "keep": {
                 "post_id": 12198,
@@ -605,7 +605,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "child-inspires-donation-of-phototherapy-machine-to-uams",
             "keep": {
                 "post_id": 12269,
@@ -621,7 +621,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "racial-challenges-continue-rockefeller-foundation-president-says",
             "keep": {
                 "post_id": 12200,
@@ -637,7 +637,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-doctor-honors-wifes-career-with-nursing-scholarship",
             "keep": {
                 "post_id": 12201,
@@ -653,7 +653,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "tobacco-tax-becomes-law-provides-86-million-for-health-improvements",
             "keep": {
                 "post_id": 12350,
@@ -669,7 +669,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-hosts-former-surgeon-general-elders",
             "keep": {
                 "post_id": 12259,
@@ -685,7 +685,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-heart-surgeon-breaking-new-ground",
             "keep": {
                 "post_id": 12306,
@@ -701,7 +701,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "state-tax-check-off-to-help-save-lives",
             "keep": {
                 "post_id": 12307,
@@ -717,7 +717,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "gwen-childs-named-2009-uams-outstanding-woman-faculty",
             "keep": {
                 "post_id": 12261,
@@ -733,7 +733,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "match-day-maps-the-future-for-140-uams-medical-students",
             "keep": {
                 "post_id": 12262,
@@ -749,7 +749,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "ua-board-of-trustees-names-rahn-uams-chancellor",
             "keep": {
                 "post_id": 12263,
@@ -770,7 +770,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "carolyn-kirkpatrick-honored-for-service-to-uams-aging-institute-board",
             "keep": {
                 "post_id": 12264,
@@ -786,7 +786,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "inaugural-uams-cardiovascular-day-raises-campus-awareness",
             "keep": {
                 "post_id": 12265,
@@ -802,7 +802,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "family-home-golf-classic-april-23-to-benefit-patients-at-uams",
             "keep": {
                 "post_id": 12355,
@@ -818,7 +818,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-dietetics-interns-test-clinical-skills",
             "keep": {
                 "post_id": 12267,
@@ -834,7 +834,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "safar-accepts-inaugural-martha-wood-bentley-chair-in-ophthalmology",
             "keep": {
                 "post_id": 12182,
@@ -850,7 +850,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "melanoma-lecture-series-to-honor-late-national-guard-colonel",
             "keep": {
                 "post_id": 12258,
@@ -866,7 +866,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "arkansas-praised-for-nursing-home-improvement-campaign",
             "keep": {
                 "post_id": 12183,
@@ -882,7 +882,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "geriatric-nursing-center-honors-ms-jane-krutz",
             "keep": {
                 "post_id": 12252,
@@ -898,7 +898,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "tribute-honors-roy-scheider-benefits-uams-myeloma-institute",
             "keep": {
                 "post_id": 12191,
@@ -914,7 +914,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "cooks-tour-events-raise-funds-for-patient-services",
             "keep": {
                 "post_id": 12195,
@@ -930,7 +930,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-sees-ophthalmic-med-techs-stature-raised",
             "keep": {
                 "post_id": 12187,
@@ -946,7 +946,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "julep-cup-jaunt-races-to-another-successful-year",
             "keep": {
                 "post_id": 12300,
@@ -962,7 +962,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-chancellor-named-rotarys-business-professional-of-the-year",
             "keep": {
                 "post_id": 12192,
@@ -978,7 +978,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "arkansas-medical-society-alliance-endows-uams-scholarships",
             "keep": {
                 "post_id": 12276,
@@ -994,7 +994,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "grant-to-fund-clinical-trial-for-earlier-cancer-diagnoses",
             "keep": {
                 "post_id": 12194,
@@ -1010,7 +1010,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "blake-williams-wins-uams-marvin-award",
             "keep": {
                 "post_id": 12277,
@@ -1026,7 +1026,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "hector-elementary-students-raise-1500-for-autism-work-at-uams-2",
             "keep": {
                 "post_id": 12669,
@@ -1042,7 +1042,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "mckelvey-becomes-inaugural-recipient-of-chair-in-clinical-genetics",
             "keep": {
                 "post_id": 12845,
@@ -1058,7 +1058,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "hpv-research-brings-uams-physician-national-award",
             "keep": {
                 "post_id": 12270,
@@ -1074,7 +1074,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-northwest-receives-1-million-from-walmart-foundation",
             "keep": {
                 "post_id": 12843,
@@ -1100,7 +1100,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "borders-named-editor-of-the-journal-of-rural-health",
             "keep": {
                 "post_id": 12184,
@@ -1116,7 +1116,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-scientist-receives-national-young-investigator-award",
             "keep": {
                 "post_id": 12185,
@@ -1132,7 +1132,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "eagles-give-2500-to-uams-division-of-endocrinology",
             "keep": {
                 "post_id": 12186,
@@ -1148,7 +1148,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "mountain-home-firefighters-donate-2500-to-uams-for-als-research",
             "keep": {
                 "post_id": 12279,
@@ -1164,7 +1164,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-ahec-sw-receives-80000-to-continue-minority-clinic",
             "keep": {
                 "post_id": 12297,
@@ -1180,7 +1180,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "bank-of-america-continues-tradition-of-uams-support",
             "keep": {
                 "post_id": 12251,
@@ -1201,7 +1201,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-opens-states-first-adult-genetics-clinic",
             "keep": {
                 "post_id": 12518,
@@ -1217,7 +1217,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "scholarship-ceremony-honors-memory-of-blytheville-doctor",
             "keep": {
                 "post_id": 12685,
@@ -1238,7 +1238,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "public-invited-to-defensive-driving-course-at-uams-4",
             "keep": {
                 "post_id": 12694,
@@ -1254,7 +1254,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-kids-first-program-earns-prestigious-accreditation",
             "keep": {
                 "post_id": 12417,
@@ -1270,7 +1270,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "barlogie-uams-multiple-myeloma-program-receive-19-5-million-grant",
             "keep": {
                 "post_id": 12604,
@@ -1286,7 +1286,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "barlogie-uams-myeloma-institute-celebrate-20-years",
             "keep": {
                 "post_id": 12607,
@@ -1302,7 +1302,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "tobacco-settlement-funds-leverage-258-million-in-research-funding-through-arkansas-biosciences-institute",
             "keep": {
                 "post_id": 12315,
@@ -1318,7 +1318,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "nanotechnology-team-captures-tumor-cells-in-bloodstream",
             "keep": {
                 "post_id": 12731,
@@ -1334,7 +1334,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-allied-health-college-dean-receives-legacy-award",
             "keep": {
                 "post_id": 12593,
@@ -1350,7 +1350,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "washington-regional-medical-center-joins-uams-led-program-to-provide-emergency-stroke-care",
             "keep": {
                 "post_id": 12710,
@@ -1366,7 +1366,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "day-named-uams-neurosurgery-department-chairman",
             "keep": {
                 "post_id": 12625,
@@ -1382,7 +1382,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-college-of-public-health-mexican-consulate-team-up-for-public-health-initiatives",
             "keep": {
                 "post_id": 12621,
@@ -1398,7 +1398,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "foundation-gift-tops-1-million-to-uams-ahec-in-jonesboro",
             "keep": {
                 "post_id": 12790,
@@ -1414,7 +1414,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-college-of-nursing-awarded-50000-from-arkansas-minority-health-commission",
             "keep": {
                 "post_id": 12470,
@@ -1430,7 +1430,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "brain-mechanism-could-be-key-to-new-stimulants-anesthetics",
             "keep": {
                 "post_id": 12562,
@@ -1446,7 +1446,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-angels-program-nationally-recognized-as-it-leader",
             "keep": {
                 "post_id": 12462,
@@ -1462,7 +1462,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-receives-102-million-for-statewide-broadband-to-benefit-health-care-education",
             "keep": {
                 "post_id": 12444,
@@ -1478,7 +1478,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-offers-free-prostate-cancer-screenings",
             "keep": {
                 "post_id": 12582,
@@ -1494,7 +1494,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-medical-center-becomes-first-in-state-designated-level-i-trauma-center",
             "keep": {
                 "post_id": 12438,
@@ -1510,7 +1510,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "arkansas-to-get-30-more-family-medicine-resident-physicians",
             "keep": {
                 "post_id": 12831,
@@ -1526,7 +1526,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-college-of-pharmacy-receives-1-million-gift",
             "keep": {
                 "post_id": 13043,
@@ -1542,7 +1542,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "lyons-give-1-5-million-to-uams-reynolds-institute-on-aging",
             "keep": {
                 "post_id": 13380,
@@ -1558,7 +1558,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-raises-385-million-to-surpass-campaign-goal",
             "keep": {
                 "post_id": 13172,
@@ -1574,7 +1574,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-simulation-center-opens-to-provide-hands-on-training",
             "keep": {
                 "post_id": 13379,
@@ -1590,7 +1590,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-names-frazier-college-of-nursing-dean",
             "keep": {
                 "post_id": 13009,
@@ -1606,7 +1606,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "statewide-cord-blood-bank-celebrates-grand-opening-at-uams",
             "keep": {
                 "post_id": 13059,
@@ -1622,7 +1622,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-researchers-find-critical-clue-to-bone-renewal-process",
             "keep": {
                 "post_id": 13156,
@@ -1638,7 +1638,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-names-burchett-vice-chancellor-for-development-and-alumni-affairs",
             "keep": {
                 "post_id": 13145,
@@ -1654,7 +1654,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-announces-nanomedicine-center",
             "keep": {
                 "post_id": 12967,
@@ -1670,7 +1670,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-northwest-campus-receives-435000-from-walmart-foundation-for-academic-specialty-clinic",
             "keep": {
                 "post_id": 13252,
@@ -1686,7 +1686,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "arkansas-tax-filers-can-donate-to-cord-blood-bank-of-arkansas",
             "keep": {
                 "post_id": 12955,
@@ -1702,7 +1702,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-establishes-center-for-dental-education",
             "keep": {
                 "post_id": 13221,
@@ -1718,7 +1718,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "health-status-of-african-americans-detailed-in-uams-college-of-public-health-report",
             "keep": {
                 "post_id": 12999,
@@ -1734,7 +1734,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-receives-180000-for-teacher-health-education",
             "keep": {
                 "post_id": 12997,
@@ -1750,7 +1750,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-neurologists-discover-new-neurodegenerative-disease",
             "keep": {
                 "post_id": 12922,
@@ -1766,7 +1766,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "fort-smith-becomes-states-fifth-schmieding-home-caregiver-training-site",
             "keep": {
                 "post_id": 13619,
@@ -1782,7 +1782,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-physician-assistant-program-achieves-accreditation",
             "keep": {
                 "post_id": 13710,
@@ -1798,7 +1798,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-breast-cancer-program-awarded-407000-from-televised-charitable-shoe-sale",
             "keep": {
                 "post_id": 13682,
@@ -1814,7 +1814,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-alumnus-gives-500000-to-honor-surgeon",
             "keep": {
                 "post_id": 13483,
@@ -1830,7 +1830,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "fibroids-procedure-doesnt-slow-runner-down",
             "keep": {
                 "post_id": 13495,
@@ -1846,7 +1846,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-opens-adult-allergy-immunology-clinic",
             "keep": {
                 "post_id": 13793,
@@ -1862,7 +1862,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-celebrates-new-weight-loss-clinic-location",
             "keep": {
                 "post_id": 13906,
@@ -1878,7 +1878,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "super-bowl-champ-visits-cancer-institute-patients-2",
             "keep": {
                 "post_id": 249,
@@ -1894,7 +1894,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "william-brooks-gentry-m-d-appointed-chair-of-the-uams-department-of-anesthesiology",
             "keep": {
                 "post_id": 13816,
@@ -1910,7 +1910,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "c-lowry-barnes-named-chair-of-uams-orthopaedic-surgery",
             "keep": {
                 "post_id": 13842,
@@ -1926,7 +1926,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "two-uams-medical-students-committed-to-primary-care-receive-20000-scholarships",
             "keep": {
                 "post_id": 13878,
@@ -1942,7 +1942,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-winthrop-p-rockefeller-cancer-institute-benefits-from-charitable-shoe-sale-on-qvc",
             "keep": {
                 "post_id": 13862,
@@ -1958,7 +1958,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-developed-medical-device-for-monitoring-uterine-contractions-goes-to-market",
             "keep": {
                 "post_id": 13787,
@@ -1974,7 +1974,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "brain-surgery-brings-new-lease-on-life",
             "keep": {
                 "post_id": 13783,
@@ -1990,7 +1990,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-helps-clear-college-students-head",
             "keep": {
                 "post_id": 14209,
@@ -2006,7 +2006,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "heard-to-retire-as-provost-succeeded-by-gardner",
             "keep": {
                 "post_id": 13946,
@@ -2022,7 +2022,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-receives-1-3-million-from-arkansas-blue-cross-and-blue-shield-blue-you-foundation-to-establish-chair-expand-programs",
             "keep": {
                 "post_id": 13776,
@@ -2038,7 +2038,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-names-patricia-cowan-dean-of-college-of-nursing",
             "keep": {
                 "post_id": 27559,
@@ -2054,7 +2054,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "tim-hill-named-uams-vice-chancellor-for-regional-programs",
             "keep": {
                 "post_id": 27645,
@@ -2070,7 +2070,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "russellville-womans-scalp-reattached-by-uams-surgeon",
             "keep": {
                 "post_id": 27705,
@@ -2086,7 +2086,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-part-of-arkansas-consortium-awarded-20-million-by-national-science-foundation",
             "keep": {
                 "post_id": 27673,
@@ -2102,7 +2102,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-medical-student-awarded-10000-by-arkansas-mutual-to-pursue-primary-care",
             "keep": {
                 "post_id": 27712,
@@ -2118,7 +2118,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "the-partnership-for-a-healthy-arkansas-a-shared-services-organization",
             "keep": {
                 "post_id": 29528,
@@ -2134,7 +2134,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-becomes-home-to-cancer-imaging-archive-for-national-cancer-institute",
             "keep": {
                 "post_id": 29866,
@@ -2150,7 +2150,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "nih-funds-uams-study-of-depression-program-in-delta",
             "keep": {
                 "post_id": 31501,
@@ -2166,7 +2166,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-telemedicine-program-in-magazine-school-district-reduces-obesity",
             "keep": {
                 "post_id": 40270,
@@ -2182,7 +2182,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "sally-the-robot-now-serving-custom-salads-at-uams",
             "keep": {
                 "post_id": 121562,
@@ -2198,7 +2198,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "new-uams-screening-initiative-aims-to-save-vision-of-patients-with-diabetes",
             "keep": {
                 "post_id": 123775,
@@ -2214,7 +2214,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-celebrates-grand-opening-of-new-pine-bluff-regional-campus",
             "keep": {
                 "post_id": 124384,
@@ -2230,7 +2230,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uamss-mcsweeney-named-american-heart-association-volunteer-of-the-year",
             "keep": {
                 "post_id": 126373,
@@ -2246,7 +2246,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "nih-awards-five-year-24-2-million-grant-to-uams-translational-research-institute",
             "keep": {
                 "post_id": 126704,
@@ -2262,7 +2262,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-head-start-program-receives-41-million-grant",
             "keep": {
                 "post_id": 127803,
@@ -2278,7 +2278,7 @@
             ]
         },
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "uams-college-of-public-health-to-offer-new-doctoral-program",
             "keep": {
                 "post_id": 162926,

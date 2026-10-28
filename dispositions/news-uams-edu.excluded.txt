@@ -1,4 +1,4 @@
-# Permalinks whose duplicate sets UAMS-Web/uams-statamic#1639 reviews and #2810 applies.
+# Permalinks whose duplicate sets UAMS-Web/uams-statamic-archive#1639 reviews and #2810 applies.
 # A same-day set with any member here is left out of news-uams-edu.json's #798 sets.
 # Collected from the permalinks #1639 and #2810 record, 2026-10-08.
 https://news.uams.edu/2004/05/03/multiplemyeloma/
