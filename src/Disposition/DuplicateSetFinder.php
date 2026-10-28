@@ -7,7 +7,7 @@ namespace UamsWeb\WxrCleanup\Disposition;
 /**
  * Finds same-day slug-format duplicate sets among a site's posts and picks each set's canonical.
  *
- * The rule was decided on `UAMS-Web/uams-statamic#798`:
+ * The rule was decided on `UAMS-Web/uams-statamic#46`:
  *
  * - **Group** posts whose slugs match once hyphens and any trailing `-N` are removed, and whose
  *   publish dates fall on the same day.

@@ -5,7 +5,7 @@ declare(strict_types=1);
 use UamsWeb\WxrCleanup\Disposition\DuplicateSetFinder;
 
 /**
- * The duplicate rule decided on `UAMS-Web/uams-statamic#798`: which posts form a set, and which
+ * The duplicate rule decided on `UAMS-Web/uams-statamic#46`: which posts form a set, and which
  * member each set keeps at which slug.
  *
  * @param  list<array{0: int, 1: string, 2?: int, 3?: string, 4?: string, 5?: string}>  $rows  id, slug, words, status, date, title

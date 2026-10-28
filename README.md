@@ -2,7 +2,7 @@
 
 Deterministic CLI tool to transform WordPress XML exports (WXR) for [news.uams.edu](https://news.uams.edu/) and [inside.uams.edu](https://inside.uams.edu/news-archive/), stripping legacy `<table>` markup and Microsoft-Word-paste noise so the Statamic importer in [`uams-web/uams-statamic`](https://github.com/UAMS-Web/uams-statamic) consumes clean content.
 
-The live WordPress sites are **not modified by this tool.** Cleanup runs offline as a transform on the WXR files in [`uams-web/wordpress-importer-exports`](https://github.com/UAMS-Web/wordpress-importer-exports). Re-runnable, fixture-tested, idempotent. Originating ticket: [`uams-web/uams-statamic#475`](https://github.com/UAMS-Web/uams-statamic/issues/475).
+The live WordPress sites are **not modified by this tool.** Cleanup runs offline as a transform on the WXR files in [`uams-web/wordpress-importer-exports`](https://github.com/UAMS-Web/wordpress-importer-exports). Re-runnable, fixture-tested, idempotent. Originating ticket: [`uams-web/uams-statamic-archive#475`](https://github.com/UAMS-Web/uams-statamic-archive/issues/475).
 
 > [!WARNING]
 > **Not a general-purpose WordPress tool.** This cleaner was built for the post bodies of news.uams.edu and the inside.uams.edu news archive, as those sites stood in May and June 2026. Every rule encodes that content's specific legacy markup, Word-paste patterns, datelines and domains. It is published for reference and for the UAMS migration only. Running it on any other site, or on these sites' later content, is unsupported and may damage the content.
@@ -68,7 +68,7 @@ Applying a disposition:
     "permalink_base": "https://news.uams.edu",
     "sets": [
         {
-            "ticket": "UAMS-Web/uams-statamic#798",
+            "ticket": "UAMS-Web/uams-statamic#46",
             "canonical_slug": "former-student-delivers-inaugural-yasargil-lecture-at-uams",
             "keep": {"post_id": 12240, "slug": "former-student-delivers-inaugural-yasargil-lecture-at-uams", "date": "2008-10-06"},
             "drop": [
@@ -93,16 +93,16 @@ A post id may appear in one set only, kept or dropped. A file breaking any of th
 
 ### The news.uams.edu sets
 
-`dispositions/news-uams-edu.json` holds 140 sets, decided on `UAMS-Web/uams-statamic#798`. `bin/build-duplicate-disposition` rebuilds it from the news export by the rule in `DuplicateSetFinder`:
+`dispositions/news-uams-edu.json` holds 140 sets, decided on `UAMS-Web/uams-statamic#46`. `bin/build-duplicate-disposition` rebuilds it from the news export by the rule in `DuplicateSetFinder`:
 
 - **Group** posts whose slugs match once hyphens and any trailing `-N` are removed, and whose publish dates fall on the same day.
 - **Guard:** a trailing `-N` is removed for grouping only when the set also has a member with that slug minus the number, or when the members' titles match (case, whitespace and curly quotes folded).
-- **Exclude** a set when any member's permalink is in `dispositions/news-uams-edu.excluded.txt`. That file holds the permalinks `UAMS-Web/uams-statamic#1639` reviews and `#2810` applies.
+- **Exclude** a set when any member's permalink is in `dispositions/news-uams-edu.excluded.txt`. That file holds the permalinks `UAMS-Web/uams-statamic-archive#1639` reviews and `#2810` applies.
 - **URL:** the hyphenated slug with its `-N` removed, when a member holds that slug or no published post does. Otherwise the kept post keeps its own slug.
 - **Text and date:** the most complete published member, where word counts within 2% are equal, then the member already at the canonical slug, then the earliest.
 
 ```
-php bin/build-duplicate-disposition --site=news.uams.edu --ticket='UAMS-Web/uams-statamic#798' \
+php bin/build-duplicate-disposition --site=news.uams.edu --ticket='UAMS-Web/uams-statamic#46' \
     --excluded=dispositions/news-uams-edu.excluded.txt dispositions/news-uams-edu.json \
     wordpress-export_news-uams-edu.000.xml wordpress-export_news-uams-edu.001.xml wordpress-export_news-uams-edu.002.xml
 ```
@@ -115,7 +115,7 @@ Rebuilding after the export changes rewrites the whole file, so review the diff 
 php bin/wxr-redirect-pairs dispositions/news-uams-edu.json dispositions/news-uams-edu.redirects.json
 ```
 
-writes the redirects a disposition implies, derived from the disposition alone rather than from an export. `uams-statamic`'s `content:generate-migration-redirects --dedup-redirects=<file>` reads the file (`UAMS-Web/uams-statamic#2943`) and turns each row into one `301`, from the old URL straight to the kept post's Statamic URL.
+writes the redirects a disposition implies, derived from the disposition alone rather than from an export. `uams-statamic`'s `content:generate-migration-redirects --dedup-redirects=<file>` reads the file (`UAMS-Web/uams-statamic-archive#2943`) and turns each row into one `301`, from the old URL straight to the kept post's Statamic URL.
 
 ```json
 [
@@ -123,7 +123,7 @@ writes the redirects a disposition implies, derived from the disposition alone r
         "source": "https://news.uams.edu/2008/10/06/formerstudentdeliversinauguralyasargillectureatuams/",
         "target": "https://news.uams.edu/2008/10/06/former-student-delivers-inaugural-yasargil-lecture-at-uams/",
         "response": "301",
-        "notes": "Duplicate of WordPress post 12240 (UAMS-Web/uams-statamic#798).",
+        "notes": "Duplicate of WordPress post 12240 (UAMS-Web/uams-statamic#46).",
         "source_wordpress_post_id": 16831,
         "target_wordpress_post_id": 12240
     }
@@ -132,7 +132,7 @@ writes the redirects a disposition implies, derived from the disposition alone r
 
 - **Rows:** one for each dropped post, and one for a kept post's old URL when its slug changes. A kept post's row has no `source_wordpress_post_id`, because that post is not dropped.
 - **URLs:** `source` and `target` are public permalinks. `target` is always the canonical URL, never another row's `source`.
-- **Post ids:** `target_wordpress_post_id` lets the generator find the kept entry by its WordPress post id (`UAMS-Web/uams-statamic#2960`). The exports' own links use a local host, and some use the `?p=` form, so a URL alone cannot find it.
+- **Post ids:** `target_wordpress_post_id` lets the generator find the kept entry by its WordPress post id (`UAMS-Web/uams-statamic-archive#2960`). The exports' own links use a local host, and some use the `?p=` form, so a URL alone cannot find it.
 - **Skipped:** a dropped post whose URL equals the canonical URL gets no row, since that URL still resolves. Each source is listed once.
 
 The committed `dispositions/news-uams-edu.redirects.json` must equal this script's output, and `NewsDispositionTest` fails when it drifts.
