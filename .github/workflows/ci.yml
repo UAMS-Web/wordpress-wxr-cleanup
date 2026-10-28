@@ -16,6 +16,10 @@ on:
   pull_request:
     branches: [main]
 
+# Least privilege: no job here writes to the repository or its pull requests.
+permissions:
+  contents: read
+
 jobs:
   test:
     name: PHPUnit (PHP ${{ matrix.php }})
