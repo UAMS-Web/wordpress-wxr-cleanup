@@ -173,9 +173,14 @@ final class Transform
         $document->preserveWhiteSpace = true;
         $document->formatOutput = false;
 
-        libxml_use_internal_errors(true);
-        $document->loadXML($wxr);
-        libxml_clear_errors();
+        $previousErrorMode = libxml_use_internal_errors(true);
+
+        try {
+            $document->loadXML($wxr);
+        } finally {
+            libxml_clear_errors();
+            libxml_use_internal_errors($previousErrorMode);
+        }
 
         $xpath = new DOMXPath($document);
         $xpath->registerNamespace('content', 'http://purl.org/rss/1.0/modules/content/');
@@ -332,9 +337,14 @@ final class Transform
         // our explicit <body> stays as the document root.
         $envelope = '<?xml encoding="UTF-8"?><body>'.$html.'</body>';
 
-        libxml_use_internal_errors(true);
-        $wrapper->loadHTML($envelope, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
-        libxml_clear_errors();
+        $previousErrorMode = libxml_use_internal_errors(true);
+
+        try {
+            $wrapper->loadHTML($envelope, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        } finally {
+            libxml_clear_errors();
+            libxml_use_internal_errors($previousErrorMode);
+        }
 
         foreach ($this->rules as $rule) {
             $rule->apply($wrapper);
