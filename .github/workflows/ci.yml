@@ -1,54 +1,190 @@
-# RUN_REMOTE_CI: budget kill-switch.
-# GitHub Actions minutes bill at the organization level, one pool shared by
-# every UAMS-Web repository, and only private repositories consume them. This
-# repository is private. Every job below is gated on
-# `if: vars.RUN_REMOTE_CI != 'false'`: with the variable set to `false` the jobs
-# report `skipped` and consume no runner minutes; unset, or any other value,
-# runs them as before.
-#
-# While the switch is off, the local CI runner (.claude/skills/local-ci/) is
-# the whole gate, not a fallback. Its verdict is posted on the pull request.
 name: CI
 
+# Remote CI for this public repository (Actions minutes are free, so no job is gated on
+# `RUN_REMOTE_CI`). Derived from `.claude/skills/code-quality/templates/ci.yml`; the setup
+# action is `.github/actions/setup/action.yml`, copied from the same skill's `setup-action.yml`.
+#
+# Jobs are chained with `needs:`, cheapest first. The last job, `CI`, `needs:` every other job,
+# runs `if: always()`, and fails unless each one reports `success`; a `skipped` or `cancelled`
+# job fails it. A ruleset requires `CI` (with `Attribution footer` and `Closing keywords`, from
+# the two body-check workflows), never a job by name, so adding or renaming a job changes only
+# the `needs:` list of `CI`. The `aggregate-needs` job fails a pull request that leaves a job
+# out of that list. Do not rename `CI`.
+#
+# Departures from the template, each deliberate:
+# - No committed `composer.lock`: this is a library and `.gitignore` excludes it, so the setup
+#   action keys its cache on `composer.json` and `composer install` resolves the newest
+#   versions the constraints allow, as the earlier workflow did. `composer-validate` therefore
+#   checks `composer.json` alone.
+# - No `mutate` job: `composer mutate` does not exist here and the suite is not yet at the Full
+#   coverage bar the job assumes (UAMS-Web/wordpress-wxr-cleanup#8 to #11 bring it there).
+# - No skip-baseline, slowest-class or global-test-symbols steps in `pest`: the repository keeps
+#   no `tests/skip-baseline.json`, has not measured slowest-class ceilings, and does not run
+#   `pest --parallel`.
+# - `mutate-ignore-breadth` is added so the remote run carries the same annotation check as
+#   `local-ci.json`.
+
 on:
+  pull_request:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  # Lets the workflow be run on demand against a branch.
+  workflow_dispatch:
 
-# Least privilege: no job here writes to the repository or its pull requests.
+# A new push to a pull request cancels that pull request's stale run.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 permissions:
   contents: read
 
 jobs:
-  test:
-    name: PHPUnit (PHP ${{ matrix.php }})
+  composer-validate:
+    name: Composer validate (composer.json)
     runs-on: ubuntu-latest
-    # Budget kill-switch: see the RUN_REMOTE_CI note in the header.
-    if: vars.RUN_REMOTE_CI != 'false'
-    strategy:
-      fail-fast: false
-      matrix:
-        php: ['8.4']
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
 
-      - name: Set up PHP ${{ matrix.php }}
-        uses: shivammathur/setup-php@v2
+      - uses: shivammathur/setup-php@v2
         with:
-          php-version: ${{ matrix.php }}
-          extensions: dom, libxml
+          php-version: '8.4'
           coverage: none
+          tools: composer:v2
 
-      - name: Cache composer dependencies
-        uses: actions/cache@v6
+      # Fails when composer.json is invalid. No composer.lock is committed.
+      - run: composer validate --no-check-publish --no-check-all
+
+  synced-files:
+    name: Synced files (no hand-edited rules or skills)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
         with:
-          path: vendor
-          key: composer-${{ runner.os }}-php${{ matrix.php }}-${{ hashFiles('composer.json') }}
-          restore-keys: composer-${{ runner.os }}-php${{ matrix.php }}-
+          node-version: '22'
 
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress --no-interaction
+      # Fails, naming the file, when a synced rule or skill was edited by hand.
+      - run: node .claude/skills/synced-files/scripts/check-synced-files.mjs
 
-      - name: Run PHPUnit
-        run: composer test
+  no-emoji:
+    name: No emoji in durable records
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      # Fails, naming the file, line and code point, when prose carries a banned glyph.
+      - run: node .claude/skills/writing-comments/scripts/check-no-emoji.mjs
+
+  aggregate-needs:
+    name: Aggregate needs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      # Fails, naming the job, when a job is missing from the `needs:` list of `CI` or a
+      # fixed required name is reported by no job. Allow-list: .github/aggregate-needs-allow.json.
+      - run: node .claude/skills/code-quality/scripts/check-aggregate-needs.mjs
+
+  pint:
+    name: Pint
+    needs: [composer-validate, synced-files]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - run: composer test:pint
+
+  rector:
+    name: Rector
+    needs: [pint]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - run: composer test:refactor
+
+  phpstan:
+    name: PHPStan
+    needs: [pint]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - run: composer stan
+
+  mutate-ignore:
+    name: Mutation annotations (none inert)
+    needs: [pint]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+
+      # Fails, naming the file and line, on a bare marker, a tail that names no mutator,
+      # prose after a mutator list, and (on a CRLF runtime) a trailing marker. Prints the
+      # plugin revision its parsing model was measured against.
+      - run: php .claude/skills/pest-testing/scripts/check-mutate-ignore.php
+
+  mutate-ignore-breadth:
+    name: Mutation annotations (breadth)
+    needs: [pint]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+
+      # Fails, naming the file and line, on an annotation that removes more than one mutant of a
+      # named mutator or none at all. Baseline: tests/mutate-ignore-breadth.baseline.json, absent
+      # while no finding is recorded.
+      - run: php .claude/skills/pest-testing/scripts/check-mutate-ignore-breadth.php
+
+  pest:
+    name: Pest
+    needs: [rector, phpstan]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - run: composer test
+
+  # The one check a ruleset requires from this workflow. Keep `needs:` listing every other
+  # job in the file; the aggregate-needs job checks it.
+  ci:
+    name: CI
+    needs: [composer-validate, synced-files, no-emoji, aggregate-needs, pint, rector, phpstan, mutate-ignore, mutate-ignore-breadth, pest]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # `skipped` and `cancelled` fail as well as `failure`: a job that did not run proved nothing.
+      - name: Every needed job succeeded
+        env:
+          RESULTS: ${{ join(needs.*.result, ' ') }}
+        run: |
+          echo "Needed job results: $RESULTS"
+          for result in $RESULTS; do
+            if [ "$result" != "success" ]; then
+              echo "::error::A needed job reported $result"
+              exit 1
+            fi
+          done
