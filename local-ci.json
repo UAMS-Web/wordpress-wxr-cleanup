@@ -64,6 +64,20 @@
         "composer.lock",
         "tests/**"
       ]
+    },
+    {
+      "name": "mutate-ignore-breadth",
+      "run": "php .claude/skills/pest-testing/scripts/check-mutate-ignore-breadth.php",
+      "paths": [
+        "**/*.php",
+        "!vendor/**",
+        "tests/mutate-ignore-breadth.baseline.json",
+        "composer.lock"
+      ],
+      "requires": [
+        "vendor/pestphp/pest-plugin-mutate",
+        ".claude/skills/pest-testing/scripts/check-mutate-ignore-breadth.php"
+      ]
     }
   ]
 }
