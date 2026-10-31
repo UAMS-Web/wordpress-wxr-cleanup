@@ -51,7 +51,7 @@ final class MergeAdjacentLists implements Rule
                 }
 
                 foreach ($lists as $list) {
-                    if (!$list->parentNode instanceof \DOMNode) {
+                    if (! $list->parentNode instanceof DOMNode) {
                         continue;
                     }
 

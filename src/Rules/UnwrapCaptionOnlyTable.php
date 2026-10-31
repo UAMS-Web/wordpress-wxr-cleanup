@@ -164,7 +164,7 @@ final class UnwrapCaptionOnlyTable implements Rule
             }
 
             $parent->insertBefore($document->createTextNode("\n"), $table);
-            while ($td->firstChild instanceof \DOMNode) {
+            while ($td->firstChild instanceof DOMNode) {
                 $child = $td->firstChild;
                 if ($child instanceof DOMText && mb_trim($child->nodeValue ?? '') === '') {
                     $td->removeChild($child);
