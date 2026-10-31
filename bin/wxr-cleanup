@@ -96,7 +96,13 @@ if ($dispositionFile !== null) {
 
 $transform = Transform::withDefaultRules();
 
-$result = $transform->apply($wxr);
+try {
+    $result = $transform->apply($wxr);
+} catch (InvalidArgumentException $exception) {
+    fwrite(STDERR, "Error: {$exception->getMessage()}
+");
+    exit(1);
+}
 
 if ($outputFile !== null) {
     if (file_put_contents($outputFile, $result) === false) {
