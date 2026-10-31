@@ -7,6 +7,7 @@ namespace UamsWeb\WxrCleanup;
 use DOMDocument;
 use DOMNode;
 use DOMXPath;
+use InvalidArgumentException;
 use UamsWeb\WxrCleanup\Rules\AddMissingCaptionAttributes;
 use UamsWeb\WxrCleanup\Rules\CaptionizeImageCutline;
 use UamsWeb\WxrCleanup\Rules\CollapseBareDoubleBr;
@@ -157,10 +158,16 @@ final class Transform
      *
      * @param  string  $wxr  Raw WXR XML
      * @return string Cleaned WXR XML
+     *
+     * @throws InvalidArgumentException When the input is empty once invalid XML characters are stripped
      */
     public function apply(string $wxr): string
     {
         $wxr = $this->stripInvalidXmlChars($wxr);
+
+        if ($wxr === '') {
+            throw new InvalidArgumentException('WXR input is empty.');
+        }
 
         $document = new DOMDocument;
         $document->preserveWhiteSpace = true;
