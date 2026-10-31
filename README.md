@@ -225,7 +225,7 @@ node .claude/skills/local-ci/local-ci.mjs --dry-run
 node .claude/skills/local-ci/local-ci.mjs --all
 ```
 
-Private repositories validate with this runner rather than billed Actions minutes.
+The same checks run remotely on every pull request (`.github/workflows/ci.yml`). `main` requires three checks to pass before a merge: `CI` (the aggregate of the jobs in `ci.yml`), `Attribution footer` and `Closing keywords` (the two pull-request body checks). The local runner gives the same verdict before a push.
 
 ## License
 
