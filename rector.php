@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 use Rector\CodeQuality\Rector\ClassMethod\LocallyCalledStaticMethodToNonStaticRector;
 use Rector\Config\RectorConfig;
-use Rector\DeadCode\Rector\ClassMethod\RemoveDuplicatedReturnSelfDocblockRector;
 use Rector\DeadCode\Rector\Property\RemoveUselessVarTagRector;
 use Rector\Php81\Rector\Property\ReadOnlyPropertyRector;
 use Rector\Php82\Rector\Class_\ReadOnlyClassRector;
@@ -66,7 +65,6 @@ $sweepOnlyRules = [
     // untyped) and `@return $this` beside a `: static`. Those are deliberate
     // annotations, not leftovers.
     RemoveUselessVarTagRector::class,
-    RemoveDuplicatedReturnSelfDocblockRector::class,
 
     // These type-declaration rules infer parameter types from how the body
     // indexes or keys an argument. On untyped public/plugin API that still
