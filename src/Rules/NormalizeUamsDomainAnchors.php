@@ -77,7 +77,7 @@ final class NormalizeUamsDomainAnchors implements Rule
             $target = self::CANONICAL[$key];
             $anchor->setAttribute('href', $target['href']);
 
-            while ($anchor->firstChild !== null) {
+            while ($anchor->firstChild instanceof \DOMNode) {
                 $anchor->removeChild($anchor->firstChild);
             }
 
