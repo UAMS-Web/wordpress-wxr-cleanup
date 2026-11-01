@@ -17,8 +17,8 @@ foreach ($candidates as $candidate) {
     }
 }
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\RedirectPairs;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\RedirectPairs;
 
 if ($argc < 2 || $argc > 3) {
     fwrite(STDERR, "Usage: wxr-redirect-pairs <disposition.json> [pairs.json]\n");

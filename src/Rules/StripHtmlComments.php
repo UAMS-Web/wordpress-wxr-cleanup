@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMComment;
 use DOMDocument;
 use DOMNode;
 use DOMXPath;
-use UamsWeb\WxrCleanup\Rule;
-use UamsWeb\WxrCleanup\XpathNodes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\XpathNodes;
 
 /**
  * Remove every HTML comment node from the document.

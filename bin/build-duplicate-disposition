@@ -18,9 +18,9 @@ foreach ($candidates as $candidate) {
     }
 }
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\DuplicateSetFinder;
-use UamsWeb\WxrCleanup\Disposition\WxrPosts;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateSetFinder;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\WxrPosts;
 
 $usage = "Usage: build-duplicate-disposition --site=<host> --ticket=<owner/repo#N> --excluded=<urls.txt> <output.json> <export.xml>...\n";
 

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMDocument;
 use DOMElement;
 use DOMText;
 use DOMXPath;
-use UamsWeb\WxrCleanup\Rule;
-use UamsWeb\WxrCleanup\XpathNodes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\XpathNodes;
 
 /**
  * Strip breaking whitespace (ASCII space, tab, line break, CR) from the

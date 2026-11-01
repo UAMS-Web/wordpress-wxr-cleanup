@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMDocument;
 use DOMElement;
 use DOMNode;
 use DOMXPath;
-use UamsWeb\WxrCleanup\Rule;
-use UamsWeb\WxrCleanup\XpathNodes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\XpathNodes;
 
 /**
  * Strip — wrapper AND content — every `<style>` element from the body.

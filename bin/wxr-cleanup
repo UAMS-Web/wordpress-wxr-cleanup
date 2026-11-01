@@ -17,9 +17,9 @@ foreach ($candidates as $candidate) {
     }
 }
 
-use UamsWeb\WxrCleanup\Disposition\ApplyDuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\ApplyDuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 $usage = "Usage: wxr-cleanup [--disposition=<file.json>] <input.xml> [output.xml]\n";
 

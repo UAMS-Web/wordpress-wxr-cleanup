@@ -1,9 +1,9 @@
 <?php
 
 declare(strict_types=1);
-use UamsWeb\WxrCleanup\Rules\StripLeadingDateLine;
-use UamsWeb\WxrCleanup\Tests\Fixture;
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripLeadingDateLine;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Fixture;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 /**
  * @return iterable<string, array{string, string}>

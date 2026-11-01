@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
-use UamsWeb\WxrCleanup\Rule;
-use UamsWeb\WxrCleanup\XpathNodes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\XpathNodes;
 
 /**
  * Remove every `align="left"` attribute, regardless of which tag carries it.

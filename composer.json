@@ -1,5 +1,5 @@
 {
-    "name": "uams-web/wordpress-wxr-cleanup",
+    "name": "uams-web/aether-wordpress-importer-cleanup",
     "description": "Deterministic CLI tool to transform WordPress WXR exports — strips legacy <table> markup for Statamic import.",
     "type": "library",
     "license": "MIT",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UamsWeb\\WxrCleanup\\": "src/"
+            "UAMSWeb\\Aether\\WordPressImporter\\Cleanup\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "UamsWeb\\WxrCleanup\\Tests\\": "tests/"
+            "UAMSWeb\\Aether\\WordPressImporter\\Cleanup\\Tests\\": "tests/"
         }
     },
     "bin": [

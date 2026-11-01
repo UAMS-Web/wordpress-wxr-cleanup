@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup;
 
 use DOMNameSpaceNode;
 use DOMNode;

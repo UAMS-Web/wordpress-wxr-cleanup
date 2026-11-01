@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateSetFinder;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateSetFinder;
 
 /**
  * The duplicate rule decided on `UAMS-Web/uams-statamic#46`: which posts form a set, and which

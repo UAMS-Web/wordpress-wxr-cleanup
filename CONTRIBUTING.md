@@ -1,4 +1,4 @@
-# Contributing to wordpress-wxr-cleanup
+# Contributing to aether-wordpress-importer-cleanup
 
 <!-- uams-claude-skills:begin -->
 ## Branches and environments

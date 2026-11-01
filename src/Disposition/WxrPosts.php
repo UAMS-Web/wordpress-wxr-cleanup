@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Disposition;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition;
 
 /**
  * Reads the posts out of one or more WXR files as plain records, for finding duplicates.

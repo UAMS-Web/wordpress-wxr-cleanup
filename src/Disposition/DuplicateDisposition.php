@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Disposition;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition;
 
 use InvalidArgumentException;
 

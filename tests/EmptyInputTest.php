@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 test('apply rejects an empty input with a stated error', function (string $wxr) {
     Transform::withDefaultRules()->apply($wxr);

@@ -1,4 +1,4 @@
-# Agent instructions for wordpress-wxr-cleanup
+# Agent instructions for aether-wordpress-importer-cleanup
 
 This file is the single source of agent instructions for this repository. Claude Code, Cursor and Codex all read it directly; there is no `CLAUDE.md`, because Claude Code reads `AGENTS.md` only when `CLAUDE.md` is absent. Put instructions here, never in a `CLAUDE.md`.
 
