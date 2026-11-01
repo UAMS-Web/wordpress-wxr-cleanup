@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use UamsWeb\WxrCleanup\Disposition\ApplyDuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\WxrPosts;
-use UamsWeb\WxrCleanup\Tests\Disposition\Support;
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\ApplyDuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\WxrPosts;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Disposition\Support;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 /**
  * The whole-post drop for `UAMS-Web/uams-statamic#46`: posts the disposition marks are removed,

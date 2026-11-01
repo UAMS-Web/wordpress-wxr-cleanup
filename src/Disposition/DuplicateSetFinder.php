@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Disposition;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition;
 
 /**
  * Finds same-day slug-format duplicate sets among a site's posts and picks each set's canonical.

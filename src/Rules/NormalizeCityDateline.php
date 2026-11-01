@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMDocument;
 use DOMElement;
 use DOMNode;
 use DOMText;
-use UamsWeb\WxrCleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
 
 /**
  * Normalize an Arkansas-city dateline at the very start of the body to

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\RedirectPairs;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\RedirectPairs;
 
 /**
  * The committed news.uams.edu disposition and its redirect pairs (`UAMS-Web/uams-statamic#46`).

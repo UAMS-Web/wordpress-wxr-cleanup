@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
-use UamsWeb\WxrCleanup\Disposition\RedirectPairs;
-use UamsWeb\WxrCleanup\Tests\Disposition\Support;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\RedirectPairs;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Disposition\Support;
 
 /**
  * Reading and validating a disposition file, and the redirect pairs it implies.

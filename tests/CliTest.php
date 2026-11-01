@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use UamsWeb\WxrCleanup\Tests\Disposition\Support;
-use UamsWeb\WxrCleanup\Tests\Fixture;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Disposition\Support;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Fixture;
 
 beforeEach(function () {
     $this->fixtureBefore = __DIR__.'/fixtures/strip-html-comments/01-basic.before.xml';

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Disposition;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition;
 
 /**
  * The redirect pairs a duplicate disposition implies: each dropped post's public permalink, and

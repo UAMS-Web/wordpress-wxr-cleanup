@@ -1,55 +1,55 @@
 <?php
 
 declare(strict_types=1);
-use UamsWeb\WxrCleanup\Rule;
-use UamsWeb\WxrCleanup\Rules\AddMissingCaptionAttributes;
-use UamsWeb\WxrCleanup\Rules\CaptionizeImageCutline;
-use UamsWeb\WxrCleanup\Rules\CollapseBareDoubleBr;
-use UamsWeb\WxrCleanup\Rules\CollapseCaptionInternalWhitespace;
-use UamsWeb\WxrCleanup\Rules\CollapseExtraLineBreaks;
-use UamsWeb\WxrCleanup\Rules\CollapseHorizontalWhitespace;
-use UamsWeb\WxrCleanup\Rules\ConvertDoubleHyphenToEmDash;
-use UamsWeb\WxrCleanup\Rules\ConvertYoutubeEmbedToUrl;
-use UamsWeb\WxrCleanup\Rules\LiftCaptionsOutOfParagraph;
-use UamsWeb\WxrCleanup\Rules\LiftTrailingBr;
-use UamsWeb\WxrCleanup\Rules\MergeAdjacentLists;
-use UamsWeb\WxrCleanup\Rules\NormalizeCityDateline;
-use UamsWeb\WxrCleanup\Rules\NormalizeUamsDomainAnchors;
-use UamsWeb\WxrCleanup\Rules\PromoteBoldToInnerStrong;
-use UamsWeb\WxrCleanup\Rules\RemoveEmptyContainers;
-use UamsWeb\WxrCleanup\Rules\RenameBoldToStrong;
-use UamsWeb\WxrCleanup\Rules\RenameItalicsToEm;
-use UamsWeb\WxrCleanup\Rules\ReplaceBareBrWithBlankLine;
-use UamsWeb\WxrCleanup\Rules\ReplaceCurlyQuotes;
-use UamsWeb\WxrCleanup\Rules\RestoreSplitCaptionCloser;
-use UamsWeb\WxrCleanup\Rules\SplitParagraphsOnDoubleBr;
-use UamsWeb\WxrCleanup\Rules\StripAlignLeft;
-use UamsWeb\WxrCleanup\Rules\StripHtmlComments;
-use UamsWeb\WxrCleanup\Rules\StripLeadingBreaks;
-use UamsWeb\WxrCleanup\Rules\StripLeadingDateLine;
-use UamsWeb\WxrCleanup\Rules\StripMsoNoise;
-use UamsWeb\WxrCleanup\Rules\StripOfficeNamespaceTags;
-use UamsWeb\WxrCleanup\Rules\StripOrdinalSupTags;
-use UamsWeb\WxrCleanup\Rules\StripStyleTags;
-use UamsWeb\WxrCleanup\Rules\StripTableAttributes;
-use UamsWeb\WxrCleanup\Rules\StripWhitespaceBeforeBr;
-use UamsWeb\WxrCleanup\Rules\TrimBlockEdges;
-use UamsWeb\WxrCleanup\Rules\TrimLineEdges;
-use UamsWeb\WxrCleanup\Rules\UnwrapBareDivs;
-use UamsWeb\WxrCleanup\Rules\UnwrapCaptionImageAnchors;
-use UamsWeb\WxrCleanup\Rules\UnwrapCaptionOnlyParagraph;
-use UamsWeb\WxrCleanup\Rules\UnwrapCaptionOnlyTable;
-use UamsWeb\WxrCleanup\Rules\UnwrapDefinitionLists;
-use UamsWeb\WxrCleanup\Rules\UnwrapEmbedOnlyParagraph;
-use UamsWeb\WxrCleanup\Rules\UnwrapEmptyBolds;
-use UamsWeb\WxrCleanup\Rules\UnwrapRemainingDivs;
-use UamsWeb\WxrCleanup\Rules\UnwrapSingleCellTable;
-use UamsWeb\WxrCleanup\Rules\UnwrapSmartTags;
-use UamsWeb\WxrCleanup\Rules\UnwrapSpans;
-use UamsWeb\WxrCleanup\Rules\UnwrapTableWrappers;
-use UamsWeb\WxrCleanup\Rules\UnwrapUnderlines;
-use UamsWeb\WxrCleanup\Rules\UnwrapWholeContentTable;
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\AddMissingCaptionAttributes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\CaptionizeImageCutline;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\CollapseBareDoubleBr;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\CollapseCaptionInternalWhitespace;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\CollapseExtraLineBreaks;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\CollapseHorizontalWhitespace;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\ConvertDoubleHyphenToEmDash;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\ConvertYoutubeEmbedToUrl;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\LiftCaptionsOutOfParagraph;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\LiftTrailingBr;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\MergeAdjacentLists;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\NormalizeCityDateline;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\NormalizeUamsDomainAnchors;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\PromoteBoldToInnerStrong;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\RemoveEmptyContainers;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\RenameBoldToStrong;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\RenameItalicsToEm;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\ReplaceBareBrWithBlankLine;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\ReplaceCurlyQuotes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\RestoreSplitCaptionCloser;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\SplitParagraphsOnDoubleBr;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripAlignLeft;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripHtmlComments;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripLeadingBreaks;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripLeadingDateLine;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripMsoNoise;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripOfficeNamespaceTags;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripOrdinalSupTags;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripStyleTags;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripTableAttributes;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\StripWhitespaceBeforeBr;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\TrimBlockEdges;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\TrimLineEdges;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapBareDivs;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapCaptionImageAnchors;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapCaptionOnlyParagraph;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapCaptionOnlyTable;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapDefinitionLists;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapEmbedOnlyParagraph;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapEmptyBolds;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapRemainingDivs;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapSingleCellTable;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapSmartTags;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapSpans;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapTableWrappers;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapUnderlines;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rules\UnwrapWholeContentTable;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 test('the default pipeline runs every rule once, in the documented order', function () {
     $order = array_map(fn (Rule $rule): string => $rule::class, Transform::defaultRules());
@@ -113,7 +113,7 @@ test('every rule class in src/Rules is in the default pipeline', function () {
     }
 
     $declared = array_map(
-        fn (string $file): string => 'UamsWeb\\WxrCleanup\\Rules\\'.basename($file, '.php'),
+        fn (string $file): string => 'UAMSWeb\\Aether\\WordPressImporter\\Cleanup\\Rules\\'.basename($file, '.php'),
         $files,
     );
     $wired = array_map(fn (Rule $rule): string => $rule::class, Transform::defaultRules());

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Rules;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Rules;
 
 use DOMDocument;
 use DOMElement;
 use DOMText;
-use UamsWeb\WxrCleanup\Rule;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Rule;
 
 /**
  * Strip leading `<br>` elements (and surrounding whitespace) from the

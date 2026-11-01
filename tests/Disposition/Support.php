@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Tests\Disposition;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Tests\Disposition;
 
-use UamsWeb\WxrCleanup\Disposition\DuplicateDisposition;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Disposition\DuplicateDisposition;
 
 /**
  * Builders for the duplicate-disposition tests: a small WXR export and a disposition document.

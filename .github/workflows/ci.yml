@@ -17,7 +17,7 @@ name: CI
 #   versions the constraints allow, as the earlier workflow did. `composer-validate` therefore
 #   checks `composer.json` alone.
 # - No `mutate` job: `composer mutate` does not exist here and the suite is not yet at the Full
-#   coverage bar the job assumes (UAMS-Web/wordpress-wxr-cleanup#8 to #11 bring it there).
+#   coverage bar the job assumes (UAMS-Web/aether-wordpress-importer-cleanup#8 to #11 bring it there).
 # - No skip-baseline, slowest-class or global-test-symbols steps in `pest`: the repository keeps
 #   no `tests/skip-baseline.json`, has not measured slowest-class ceilings, and does not run
 #   `pest --parallel`.

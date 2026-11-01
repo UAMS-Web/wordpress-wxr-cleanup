@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 afterEach(function () {
     libxml_use_internal_errors(false);

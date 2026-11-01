@@ -1,4 +1,4 @@
-# wordpress-wxr-cleanup
+# aether-wordpress-importer-cleanup
 
 Deterministic CLI tool to transform WordPress XML exports (WXR) for [news.uams.edu](https://news.uams.edu/) and [inside.uams.edu](https://inside.uams.edu/news-archive/), stripping legacy `<table>` markup and Microsoft-Word-paste noise so the Statamic importer in [`uams-web/uams-statamic`](https://github.com/UAMS-Web/uams-statamic) consumes clean content.
 
@@ -6,6 +6,18 @@ The live WordPress sites are **not modified by this tool.** Cleanup runs offline
 
 > [!WARNING]
 > **Not a general-purpose WordPress tool.** This cleaner was built for the post bodies of news.uams.edu and the inside.uams.edu news archive, as those sites stood in May and June 2026. Every rule encodes that content's specific legacy markup, Word-paste patterns, datelines and domains. It is published for reference and for the UAMS migration only. Running it on any other site, or on these sites' later content, is unsupported and may damage the content.
+
+## Renamed from `wordpress-wxr-cleanup`
+
+The repository, the Composer package and the PHP namespace were renamed together. A consumer changes three things:
+
+| Was | Now |
+| --- | --- |
+| Package `uams-web/wordpress-wxr-cleanup` | `uams-web/aether-wordpress-importer-cleanup` |
+| Namespace `UamsWeb\WxrCleanup` | `UAMSWeb\Aether\WordPressImporter\Cleanup` |
+| Remote `UAMS-Web/wordpress-wxr-cleanup` | `UAMS-Web/aether-wordpress-importer-cleanup` (the old URL redirects) |
+
+An existing checkout updates its remote with `git remote set-url origin https://github.com/UAMS-Web/aether-wordpress-importer-cleanup.git`. The `wxr-cleanup`, `wxr-redirect-pairs` and `build-duplicate-disposition` commands keep their names.
 
 ## Setup
 
@@ -31,7 +43,7 @@ Reads a raw WXR file, applies every configured cleanup rule, and writes the clea
 ### From PHP
 
 ```php
-use UamsWeb\WxrCleanup\Transform;
+use UAMSWeb\Aether\WordPressImporter\Cleanup\Transform;
 
 $cleaned = Transform::withDefaultRules()->apply($wxr);
 ```

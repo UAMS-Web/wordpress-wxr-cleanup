@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UamsWeb\WxrCleanup\Tests;
+namespace UAMSWeb\Aether\WordPressImporter\Cleanup\Tests;
 
 final class Fixture
 {
